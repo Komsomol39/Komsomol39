@@ -110,6 +110,135 @@
           "durationMs": 100
         }
       ]
+    },
+    {
+      "id": "autumn-leaves",
+      "title": "🍂 Осенний листопад",
+      "description": "Кленовые листья кружатся на ветру и плавно падают",
+      "type": "animation",
+      "loop": true,
+      "frames": [
+        {
+          "file": "animations/autumn-leaves/frame-00.png",
+          "sha256": "56567da4b53ade890154d23f95617615717fa9db1f06cc5bd2369b907f6a929f",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-01.png",
+          "sha256": "6dedd408575aa10c2f6a768431d5c90517bb2d2a9f1d57f6b202e6b3997940d2",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-02.png",
+          "sha256": "873ac6b7c589254186711df61af9ccd5df54ec8adfccd77780dd3e47be2497b4",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-03.png",
+          "sha256": "5316149fbeec38e6ea691b87e5aa024dc9f65523f301217209028db0da073ad9",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-04.png",
+          "sha256": "488323afc457a1e9eb9cc27fbf8651da95624e9919a1bfe7c06b88aaf0e13439",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-05.png",
+          "sha256": "9b6c8f4cf987214554270b48f9d6002b6c4fabe9ce4eb5a00a0a7a2d05b916d3",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-06.png",
+          "sha256": "a9579aa6dcc18035fda83b60472b326dff8a9e840600e69649362ba9e4b0d58e",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-07.png",
+          "sha256": "8149896adcbe801b1ab672099782cc68a095f522a58530f539959e559ce43132",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-08.png",
+          "sha256": "2ca7269d85f1ca8bddb2a8b983f3b33f1c56482d3627034f3e88c670fabb4dff",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-09.png",
+          "sha256": "1d6309da7a7190baf4f01edd006a44c39e380827f8a506ab57a63f8b6855a22d",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-10.png",
+          "sha256": "ee6470bfc852b268e985be6bf72522c40cdb50e3e64fdbe592967cefea859c51",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-11.png",
+          "sha256": "8d59b4916ca2e13ea7d289787b25ed996acc14586fc4ec881cca5cf51c813bdd",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-12.png",
+          "sha256": "605319dd734895bbd0a8eefdcdc8f715d0492d29365af229f0755b86dac7194c",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-13.png",
+          "sha256": "0ff962885e95c0a37297979757d790ce0b90ad05ea9163bb7364d03c90cb7b30",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-14.png",
+          "sha256": "9bf95d7e978ad68b73772ab7796fe3a73b9e39662c11d07576aaaf9f50f97d19",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-15.png",
+          "sha256": "b01a3db14978042b6ae4a8efe42339dbae1f4ee9741ae73411e4b0761307aee0",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-16.png",
+          "sha256": "6d4e137391a20aea80551250a061682f58f9c9fb391d3c6c0ed3ddf52e100686",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-17.png",
+          "sha256": "fd814f78fe13707da8fa56ee2eec951451a2097162889d75049a215887ba5ae5",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-18.png",
+          "sha256": "f40c56daade8a57568726876aabe76d93cedc9ba3c5be0e0c6e0e579293d2013",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-19.png",
+          "sha256": "4f8fb54955fdade2e975071b34b2522deff3b34ddb2ea5724cd6049d3e6f78dc",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-20.png",
+          "sha256": "005dfcce4504f29adc7a76d4daf5edc65f7e30688bc7516fea54585a451722ea",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-21.png",
+          "sha256": "6c48199d48ff5ce9a43cc67eebd4fcb44366235205d02bda956fad721717e65f",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-22.png",
+          "sha256": "f06c266effc928ace24a5a1266c877f0b9d44d9b82bb6ceb7d2c945354af7869",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/autumn-leaves/frame-23.png",
+          "sha256": "c5c6548735224674be8a6e0859e9f3c93f1b507d6e2629d72e360b369fa7c48c",
+          "durationMs": 100
+        }
+      ]
     }
   ]
 }
