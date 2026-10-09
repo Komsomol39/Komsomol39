@@ -97,6 +97,19 @@
           "durationMs": 100
         }
       ]
+    },
+    {
+      "id": "baltic-heart",
+      "title": "Сердце Балтики",
+      "description": "Новый эффект, опубликованный без обновления APK",
+      "type": "image",
+      "frames": [
+        {
+          "file": "images/baltic-heart.png",
+          "sha256": "f65d75dacae1ca5510efcce8d338b32f3d419f8486fe6618ecc11aa86c45f935",
+          "durationMs": 100
+        }
+      ]
     }
   ]
 }
