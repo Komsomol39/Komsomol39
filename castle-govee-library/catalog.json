@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "width": 30,
+  "height": 32,
+  "items": [
+    {
+      "id": "svetlogorsk",
+      "title": "Герб Светлогорска",
+      "description": "Геральдический знак, адаптированный к 30×32",
+      "type": "image",
+      "frames": [
+        {
+          "file": "images/svetlogorsk.png",
+          "sha256": "976e7c59cb49c54546a76de64511a6c837613aa699f4c8ac85e33dc4458aec43",
+          "durationMs": 100
+        }
+      ]
+    },
+    {
+      "id": "ru-flag",
+      "title": "Флаг России",
+      "description": "Статический триколор",
+      "type": "image",
+      "frames": [
+        {
+          "file": "images/ru-flag.png",
+          "sha256": "828098e626dc9b2578a6c0d105bc0444be2e9cb8d1bb4fc2eb97e620f600f1f9",
+          "durationMs": 100
+        }
+      ]
+    },
+    {
+      "id": "russian-wave",
+      "title": "Развевающийся флаг",
+      "description": "12 кадров, плавное колыхание триколора",
+      "type": "animation",
+      "loop": true,
+      "frames": [
+        {
+          "file": "animations/russian-wave/frame-00.png",
+          "sha256": "b5dfb9fe015cb685b084e6dfa088d390689a3291753b95473d375d555c303de0",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-01.png",
+          "sha256": "e91bf09f713a2239230b20fe330173d5ae6ebd963001184b3ed5c54c0ba903a0",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-02.png",
+          "sha256": "6c2cc11f01c3378d1cdd3f48a24920988b0faad4542d1f167553eee8d7f3c692",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-03.png",
+          "sha256": "223828cf1b67f9d5866967dcfc04b9e67aa4d5ce0c6e7b5fcb2d2d15b50de6f0",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-04.png",
+          "sha256": "8046e71fafea2f06734b491acf4403f375f1761c05747837b6c0df2cee9ec0cc",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-05.png",
+          "sha256": "2919166885efecc6c679081645878bead3e42d4712074ce56cd5114a6b5f4129",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-06.png",
+          "sha256": "ebb8c58be2651aca3da3e8d5dccd4f6c334f770895066a5b54b553164af7dc2d",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-07.png",
+          "sha256": "c948994c3e9bfe964e8d85f5f18ae694adb051411c8945631b174ebfdc9f3265",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-08.png",
+          "sha256": "a9ecd3ce6577d7c2f7e098b5b16c4c40f8f13e93ffd6fdc0e288a11b0ad7ee1d",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-09.png",
+          "sha256": "edbdce699fa2889e38108de6ae27bf6774b19b45ace93c61430fd4c71eb61f31",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-10.png",
+          "sha256": "01041d44fe868370fb500aec3a0ed24da50d3f6a77169568b613f07cdb955c46",
+          "durationMs": 100
+        },
+        {
+          "file": "animations/russian-wave/frame-11.png",
+          "sha256": "4be4796f7cfb63303034f65982d378720e74b284d665a2def48bc377b8f4a43f",
+          "durationMs": 100
+        }
+      ]
+    }
+  ]
+}
