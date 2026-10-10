@@ -42,3 +42,21 @@ Project D:\Project\CastleGovee. v2 migration data are staged in library-v2-stagi
 ## Portable authoring helper
 
 Use repository script tools/add_effect_v2.py (Python + Pillow) to create fully encoded GIF speed/orientation variants and their schema-2 catalogue entries from a source GIF/PNG. Example: python tools/add_effect_v2.py --input animation.gif --id my-effect --title "My effect" --speeds all --orientations normal,street. Validate and atomically commit all generated files. The script prepares local content, it does not itself push to GitHub.
+
+
+## Publishing reliably through the connected GitHub plugin
+
+The Castle Relay host may be authenticated as a different GitHub identity (`from39b-bot`) and return HTTP 403 to `Komsomol39/Komsomol39`. If so, **do not repeatedly push via Castle git_sync**. Use the connected GitHub connector, which has the correct permissions, while keeping GIF binaries staged under `D:\Project\CastleGovee\library-v2-staging`.
+
+1. Compute and validate each file's SHA-256 and Git blob SHA-1 locally; make sure the manifest references only generated GIFs and the 30×32 PNG preview.
+2. Publish each native GIF binary and preview PNG as a GitHub blob with `create_blob`, `encoding="base64"`; verify returned blob SHA-1 against the local Git object hash.
+3. Publish the complete UTF-8 `catalog.json` and `README.md` blobs. Be mindful of CRLF vs LF: Git blob SHA-1 must be computed over **exactly the bytes sent to GitHub**.
+4. Fetch the current `main` ref and its tree SHA, call `create_tree` with `base_tree_sha` and all updated paths, then `create_commit` with the current head as parent and `update_ref` for `main` using `expected_sha`. This publishes all files atomically in **one commit**.
+5. After publication fetch GitHub `catalog.json` to confirm item count/variants, refresh Castle Lights on the test device and check the GitHub HTTPS download, SHA check, upload acceptance `A6 58 00` and activation `33 05 00`.
+6. Never claim publication based on a local Git commit or already-created unreachable Git blobs: the branch ref must be updated and verified. If authorization fails, leave the public catalog unchanged and report the blocker.
+
+Last verified example: `island-sun-seagull` published in commit `babfe7faf81bc08cf05985ae817aeeb9f2cc606d` (40 GIF variants), controller confirmed via `LIBRARY_V2_REMOTE_GIF` and both BLE acknowledgements.
+
+## Dialog contrast requirement
+
+Castle Lights is a dark-themed app. Variant selection dialogs must use a compatible dark AlertDialog theme, dark popup/dropdown backgrounds, and readable foreground text (including speed Spinner options and orientation radio labels). Never use light-colored labels on the default white Android AlertDialog.
