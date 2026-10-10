@@ -22,10 +22,11 @@ Castle Lights does not generate or modify GitHub-gallery GIF files on the phone.
 | --- | --- | --- | ---: |
 | Russian waving flag | normal / street | 10% through 200% | 40 |
 | Autumn leaves | normal / street | 10% through 200% | 40 |
+| Sunny island and flying seagulls | normal / street | 10% through 200% | 40 |
 | Svetlogorsk coat of arms | normal / street | none (static) | 2 |
 | Russian tricolor | normal / street | none (static) | 2 |
 | Baltic heart | normal / street | none (static) | 2 |
-| **Total** | | | **86** |
+| **Total** | | | **126** |
 
 ## Example animation item
 

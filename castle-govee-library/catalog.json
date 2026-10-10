@@ -837,6 +837,379 @@
           "speedPercent": 200
         }
       ]
+    },
+    {
+      "id": "island-sun-seagull",
+      "title": "🏝️ Остров и чайка",
+      "description": "Солнечный остров, пальма, море и летящие чайки",
+      "type": "animation",
+      "preview": {
+        "file": "animations/island-sun-seagull/frame-00.png",
+        "sha256": "1ee68fb1b126c36e683cb2eaf5fa555f076fb9a00cab8bb9f467b7f0f32f10a3"
+      },
+      "variants": [
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/010.gif",
+          "sha256": "847883c355624857276c96f62cc120de05187ef20127d161fa9971d3f52a61ec",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 48000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/020.gif",
+          "sha256": "307ee65785e00eb9a0e35a50fc9fc59251850a409e5d22d74865c52ee180b1b4",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 24000,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/030.gif",
+          "sha256": "8807371176e25b5000413aee3324ffb94fe6c484b535c11626fa619aee778719",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 16000,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/040.gif",
+          "sha256": "bad85b1cbf32ed5126990e080a80be82cd7ea3ab5c2a2233d027844a2db24777",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 12000,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/050.gif",
+          "sha256": "8dd1fa9f1f4f60c26f5b3358cbc44a973ab25e0aaa758a4a4ba6126a6f4dbec2",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 9600,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/060.gif",
+          "sha256": "1bd3406257f97766961cc3598c607caba616d84b16e45391396d1dddf9ecbd11",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 8000,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/070.gif",
+          "sha256": "61f16705209e91e536f440255041f223df1dcadf40528ebdcf481387e30ce626",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 6800,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/080.gif",
+          "sha256": "32863b0f359981bf616ff0d18e23b7eb671e5f485c9fc076ccef07a23446ccaa",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 6000,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/090.gif",
+          "sha256": "63d9d22bbd49de90aa187837cee86ecb991ddd4ea2bf9b2d21c8cfe4995449b5",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 5200,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/100.gif",
+          "sha256": "afcbe5c1f6a176d3787af7a057fb44a25be162ee5a2e6d927037fec9c56f4d3b",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 4800,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/110.gif",
+          "sha256": "9bd3470caf45089f461ff4be91a109b547123a614d2a3f620f29dfb48f5b131e",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 4400,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/120.gif",
+          "sha256": "82de95770f50578868ff418b0e8cf9afbc4f9de31171b5453265f6c44b247e88",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 4000,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/130.gif",
+          "sha256": "43756773f959c4d2a71171169ab1e8f233737e743fb5f62e349659c75f8263cd",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 3600,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/140.gif",
+          "sha256": "43756773f959c4d2a71171169ab1e8f233737e743fb5f62e349659c75f8263cd",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 3600,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/150.gif",
+          "sha256": "2caa9bb548915338669c323eedf82834b58d20d777348c11559ac2a538b2310a",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 3200,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/160.gif",
+          "sha256": "2caa9bb548915338669c323eedf82834b58d20d777348c11559ac2a538b2310a",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 3200,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/170.gif",
+          "sha256": "eca0e905f487be555ee7b28cb6871a008d9a4766f9fb4950dac773d7423417f1",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 2800,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/180.gif",
+          "sha256": "eca0e905f487be555ee7b28cb6871a008d9a4766f9fb4950dac773d7423417f1",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 2800,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/190.gif",
+          "sha256": "2200723785ecc470549b0983c27e934a4fa065720bcf46a789ddf4c668db0a92",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 2400,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/island-sun-seagull/normal/200.gif",
+          "sha256": "2200723785ecc470549b0983c27e934a4fa065720bcf46a789ddf4c668db0a92",
+          "sizeBytes": 8848,
+          "frameCount": 40,
+          "durationMs": 2400,
+          "speedPercent": 200
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/010.gif",
+          "sha256": "d24380b777298abdb8d8114936bb5c7813d2acf1f081712fd74549db335664b6",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 48000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/020.gif",
+          "sha256": "5a36234114c1617deb60ff63f5c06c765c6d4792c5b7dcfac0d5725a66e8b201",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 24000,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/030.gif",
+          "sha256": "f0a4eee361d01642cfbd928d5761ea74223b4e1bdc72eecdbbec30a0ff42407e",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 16000,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/040.gif",
+          "sha256": "0690c166231a9902ad86d06e0c23f1dd8ad331edb36f880c93a83d5da02bee48",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 12000,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/050.gif",
+          "sha256": "8ce9ac3a55f6dde8e152acc3e763ffd10ac43ed4a289a8619e5a6de0b6ad86b0",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 9600,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/060.gif",
+          "sha256": "09e8c6f59496896c01d84591abbad649e1a9aa46ad7eac0ae77ca4d0db31984b",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 8000,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/070.gif",
+          "sha256": "b1c0c78103f9dccc7440170aec1c1887392fb8905d35f7aaadd2593e73b08b75",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 6800,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/080.gif",
+          "sha256": "650c8af9dd5286305a0b61866a64034589b3ee705bdb97e528330e1575879236",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 6000,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/090.gif",
+          "sha256": "34fb8bc99641e92bfa4026ab060a46bf5fe6c5089fe623b9f65537a4e3bfe035",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 5200,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/100.gif",
+          "sha256": "e418236b77442c9fd5687ea6f0b8296e49da9693a7e17784fd4dc6b4ee2a1c53",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 4800,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/110.gif",
+          "sha256": "24dc2e8fa9483c101497e63a945bc73dd7b1f5f2a8a31ab6262369c316ebefdb",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 4400,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/120.gif",
+          "sha256": "9a8f5de766957632ee63ed2276809502298e9e63d9ee38d4003bfeb465dbf5a9",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 4000,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/130.gif",
+          "sha256": "517625e43b2db26f3b2780ff99602ef8cc42eddd19ad08a55fd3c5fcd5b6849f",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 3600,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/140.gif",
+          "sha256": "517625e43b2db26f3b2780ff99602ef8cc42eddd19ad08a55fd3c5fcd5b6849f",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 3600,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/150.gif",
+          "sha256": "fe809c703da8ec7b74f5a2713aa7f4768dea681972b1f793c35bc37aa9675554",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 3200,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/160.gif",
+          "sha256": "fe809c703da8ec7b74f5a2713aa7f4768dea681972b1f793c35bc37aa9675554",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 3200,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/170.gif",
+          "sha256": "be71472738c1f32321d0650816bc3735a10cd37a8a5aa7c709630609e0ed2eed",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 2800,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/180.gif",
+          "sha256": "be71472738c1f32321d0650816bc3735a10cd37a8a5aa7c709630609e0ed2eed",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 2800,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/190.gif",
+          "sha256": "f9a7bc3bc46fd11fc82830a904ce28f66adb44839ce3e0fcd237c761e848788f",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 2400,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/island-sun-seagull/street/200.gif",
+          "sha256": "f9a7bc3bc46fd11fc82830a904ce28f66adb44839ce3e0fcd237c761e848788f",
+          "sizeBytes": 8847,
+          "frameCount": 40,
+          "durationMs": 2400,
+          "speedPercent": 200
+        }
+      ],
+      "loop": true
     }
   ]
 }
