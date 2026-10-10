@@ -38,3 +38,7 @@ Empirical input GIF acceptance boundary on tested H70B6: 1,048,560 accepted; 1,0
 ## Local tools
 
 Project D:\Project\CastleGovee. v2 migration data are staged in library-v2-staging/. Conversion tool scripts/build_library_v2_from_android.py migrated already-built cached GIFs from our test device and is not a generic generator. Future new animations should be authored on a PC or CI and validated before publishing. Mobile GifPresetCache.java is retired from the active library pipeline.
+
+## Portable authoring helper
+
+Use repository script tools/add_effect_v2.py (Python + Pillow) to create fully encoded GIF speed/orientation variants and their schema-2 catalogue entries from a source GIF/PNG. Example: python tools/add_effect_v2.py --input animation.gif --id my-effect --title "My effect" --speeds all --orientations normal,street. Validate and atomically commit all generated files. The script prepares local content, it does not itself push to GitHub.
