@@ -1,17 +1,35 @@
 {
-  "schema": 1,
+  "schema": 2,
+  "format": "castle-govee-native-gif-v2",
   "width": 30,
   "height": 32,
+  "description": "Each listed native GIF variant is a ready-to-upload asset. Missing speed/orientation variants are unsupported.",
   "items": [
     {
       "id": "svetlogorsk",
       "title": "Герб Светлогорска",
       "description": "Геральдический знак, адаптированный к 30×32",
       "type": "image",
-      "frames": [
+      "loop": false,
+      "preview": {
+        "file": "images/svetlogorsk.png",
+        "sha256": "976e7c59cb49c54546a76de64511a6c837613aa699f4c8ac85e33dc4458aec43"
+      },
+      "variants": [
         {
-          "file": "images/svetlogorsk.png",
-          "sha256": "976e7c59cb49c54546a76de64511a6c837613aa699f4c8ac85e33dc4458aec43",
+          "orientation": "normal",
+          "file": "gifs/svetlogorsk/normal.gif",
+          "sha256": "147b288b4cbaae9220d79b95bf38762d2650d4a56e231315552425ae889b621e",
+          "sizeBytes": 1073,
+          "frameCount": 1,
+          "durationMs": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/svetlogorsk/street.gif",
+          "sha256": "37c990711c8afd5c02719c1ac17be5584241377c33e4d30c38d4507d378a5ca3",
+          "sizeBytes": 1073,
+          "frameCount": 1,
           "durationMs": 100
         }
       ]
@@ -21,10 +39,26 @@
       "title": "Флаг России",
       "description": "Статический триколор",
       "type": "image",
-      "frames": [
+      "loop": false,
+      "preview": {
+        "file": "images/ru-flag.png",
+        "sha256": "828098e626dc9b2578a6c0d105bc0444be2e9cb8d1bb4fc2eb97e620f600f1f9"
+      },
+      "variants": [
         {
-          "file": "images/ru-flag.png",
-          "sha256": "828098e626dc9b2578a6c0d105bc0444be2e9cb8d1bb4fc2eb97e620f600f1f9",
+          "orientation": "normal",
+          "file": "gifs/ru-flag/normal.gif",
+          "sha256": "5897f88303fee9d6987ce3cdfdebd198539c1f0b802e984b72e19b2b1600457b",
+          "sizeBytes": 891,
+          "frameCount": 1,
+          "durationMs": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/ru-flag/street.gif",
+          "sha256": "5897f88303fee9d6987ce3cdfdebd198539c1f0b802e984b72e19b2b1600457b",
+          "sizeBytes": 891,
+          "frameCount": 1,
           "durationMs": 100
         }
       ]
@@ -35,66 +69,370 @@
       "description": "12 кадров, плавное колыхание триколора",
       "type": "animation",
       "loop": true,
-      "frames": [
+      "preview": {
+        "file": "animations/russian-wave/frame-00.png",
+        "sha256": "b5dfb9fe015cb685b084e6dfa088d390689a3291753b95473d375d555c303de0"
+      },
+      "variants": [
         {
-          "file": "animations/russian-wave/frame-00.png",
-          "sha256": "b5dfb9fe015cb685b084e6dfa088d390689a3291753b95473d375d555c303de0",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/010.gif",
+          "sha256": "b39a8ef1ffee3223a53c9265eaf0495f05a8ce1f3cd50818b0f7207f24439f69",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 30000,
+          "speedPercent": 10
         },
         {
-          "file": "animations/russian-wave/frame-01.png",
-          "sha256": "e91bf09f713a2239230b20fe330173d5ae6ebd963001184b3ed5c54c0ba903a0",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/020.gif",
+          "sha256": "76395d8c3f956e931babf618ab6978d95af1c2515eb70eee865ba5cece98355d",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 15000,
+          "speedPercent": 20
         },
         {
-          "file": "animations/russian-wave/frame-02.png",
-          "sha256": "6c2cc11f01c3378d1cdd3f48a24920988b0faad4542d1f167553eee8d7f3c692",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/030.gif",
+          "sha256": "a276eaac55b324559938cb415d48324b2cd3890b0802d719a01cdf9cc2d3fc4b",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 9960,
+          "speedPercent": 30
         },
         {
-          "file": "animations/russian-wave/frame-03.png",
-          "sha256": "223828cf1b67f9d5866967dcfc04b9e67aa4d5ce0c6e7b5fcb2d2d15b50de6f0",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/040.gif",
+          "sha256": "0c870245047b922977fd2c84359ed655c16c11d3afedd0faf6d6c471d9002c43",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 7560,
+          "speedPercent": 40
         },
         {
-          "file": "animations/russian-wave/frame-04.png",
-          "sha256": "8046e71fafea2f06734b491acf4403f375f1761c05747837b6c0df2cee9ec0cc",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/050.gif",
+          "sha256": "8510dae924e4b706467c9ce58d35c685f977adac985b425e7d9cee17f875ca33",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 6000,
+          "speedPercent": 50
         },
         {
-          "file": "animations/russian-wave/frame-05.png",
-          "sha256": "2919166885efecc6c679081645878bead3e42d4712074ce56cd5114a6b5f4129",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/060.gif",
+          "sha256": "49934cd19d86119246d1d39ed1cb2166d3ffb943a1e479905bfa4261495ed6df",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 5040,
+          "speedPercent": 60
         },
         {
-          "file": "animations/russian-wave/frame-06.png",
-          "sha256": "ebb8c58be2651aca3da3e8d5dccd4f6c334f770895066a5b54b553164af7dc2d",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/070.gif",
+          "sha256": "51d3b2e66bea6fac9d7f1e8c7d0f61adbab732db8e7a822f3597ec51ff94ddf7",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 4320,
+          "speedPercent": 70
         },
         {
-          "file": "animations/russian-wave/frame-07.png",
-          "sha256": "c948994c3e9bfe964e8d85f5f18ae694adb051411c8945631b174ebfdc9f3265",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/080.gif",
+          "sha256": "0c9089db5318fdc56bf669db4519835baf4b55db7e99ca1d8e6cefe036aad353",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 3720,
+          "speedPercent": 80
         },
         {
-          "file": "animations/russian-wave/frame-08.png",
-          "sha256": "a9ecd3ce6577d7c2f7e098b5b16c4c40f8f13e93ffd6fdc0e288a11b0ad7ee1d",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/090.gif",
+          "sha256": "272bf5efd05b494fda953ba94de4730f5c6f503b33ed907f03265e2bb540b901",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 3360,
+          "speedPercent": 90
         },
         {
-          "file": "animations/russian-wave/frame-09.png",
-          "sha256": "edbdce699fa2889e38108de6ae27bf6774b19b45ace93c61430fd4c71eb61f31",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/100.gif",
+          "sha256": "54ca477c92113bc52984aa72feb2df7954db1213c27b7edd1b04e833510328cb",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 3000,
+          "speedPercent": 100
         },
         {
-          "file": "animations/russian-wave/frame-10.png",
-          "sha256": "01041d44fe868370fb500aec3a0ed24da50d3f6a77169568b613f07cdb955c46",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/110.gif",
+          "sha256": "797a5733ffad55b5a992cff116962849083e041d5a210585c6aae1ba7af51e55",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 2760,
+          "speedPercent": 110
         },
         {
-          "file": "animations/russian-wave/frame-11.png",
-          "sha256": "4be4796f7cfb63303034f65982d378720e74b284d665a2def48bc377b8f4a43f",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/120.gif",
+          "sha256": "eb408e3ae22e91004ed1ec319249b33b4738de22dfdcff00739ce4282519be3f",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 2520,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/130.gif",
+          "sha256": "6ce32ce92cdfe8cbf447a19a004fc8bcf14c03619ec9547fe3b33fe6ff62cc6a",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 2280,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/140.gif",
+          "sha256": "8bc645e20f94f0966293739453118966149492223fb2d4bbda582b52fe4ab29b",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 2160,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/150.gif",
+          "sha256": "6ac5870431ad1892b51d21794cee24a57fafc3c723bd2cea9372ec6aec9c937a",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 2040,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/160.gif",
+          "sha256": "ca23d43f09062e9c9bd982213e2e256760076b47b251db0f19c37778666feac5",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 1920,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/170.gif",
+          "sha256": "0433c77b2d523ff868c06f6f6a3c2cf31798b0ef27b1f17f3a573b57849492ba",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 1800,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/180.gif",
+          "sha256": "9a8b467446570715e83e74d07ce4c629ed685911a11877037c209ecb9a8713db",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 1680,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/190.gif",
+          "sha256": "78e3228cd8ffa72570d223df95374aa6d2549433733265539c93f38b509a7182",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 1560,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/russian-wave/normal/200.gif",
+          "sha256": "78e3228cd8ffa72570d223df95374aa6d2549433733265539c93f38b509a7182",
+          "sizeBytes": 3084,
+          "frameCount": 12,
+          "durationMs": 1560,
+          "speedPercent": 200
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/010.gif",
+          "sha256": "12e3daee8b458c12fbd83112443688ce8baaceadca3d3094c991e0080a1382e1",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 30000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/020.gif",
+          "sha256": "12870d6cf381f2df263bf2acf803d1e4bd86f6bb74adc44ad563b02cecee7893",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 15000,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/030.gif",
+          "sha256": "dd01d65b784a330813b7a65446007a3cf77f1f987b584db0d0af196445da80fd",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 9960,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/040.gif",
+          "sha256": "d4d7925c414301ab007a23b711b63c587d37aa062fe96ec95be03f81323ee5a9",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 7560,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/050.gif",
+          "sha256": "5ca18deef67427d0b979941e1fe440de0274a1e831b13955f995269d3ae75e31",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 6000,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/060.gif",
+          "sha256": "135d2370e552f71e415f14285925d408df58adb17f57e7ef6026d33af7ed81e2",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 5040,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/070.gif",
+          "sha256": "ed59e557ab984e2f9ad5e4549c508c835cfba9cc28f759edca4af816e3606776",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 4320,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/080.gif",
+          "sha256": "195f9e4b0dfea516ab52112503d295ffb565e9be3a2dcc1935e7254f2cd2b3d9",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 3720,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/090.gif",
+          "sha256": "e976d3ec7f8dfed8abe341d28139cb57b541b64d6bbb99b3589acfe444a730f1",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 3360,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/100.gif",
+          "sha256": "efcca1b8de9e857bc34f7aad75fee5965c1a96cd3b40b54ccafbbce039ef20e3",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 3000,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/110.gif",
+          "sha256": "bc56bcd3b3ab3974f7828444bd5b5356a88c1fd6dae5f463df93885f445ad525",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 2760,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/120.gif",
+          "sha256": "cc2f59f773e3cd75f0949fad866c16b4a8b70688c89e061ff972fcc6d105ba8b",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 2520,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/130.gif",
+          "sha256": "9bd04ab74717c53b1c89f476158fa9f3e6675461e5d08cc0f55d3be3f34dcd92",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 2280,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/140.gif",
+          "sha256": "42dc19792573104addf2dcb3f7a81d1f9a220e46ff8bfa3012eea8eaa3345400",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 2160,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/150.gif",
+          "sha256": "fa6bc305f981060dc02adb19759ce4c699ec74fa42b2c187129b068b2d691de9",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 2040,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/160.gif",
+          "sha256": "d1d72c2981d299359f8b7d976f06539977ec5a500430163bdb246fdf6177a593",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 1920,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/170.gif",
+          "sha256": "fb4accf4504c35e06b4e46d5ea29a9c7694c60ca1a89b19a6ece0a3031e564e4",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 1800,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/180.gif",
+          "sha256": "eaa771f742d62c28f5ecc61882928efb26eafa25928c0c1546f9fc33acac078f",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 1680,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/190.gif",
+          "sha256": "2fd8f0cb208061eee4314390d91f0a5983f06e9aa435a8359d375bcc41725382",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 1560,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/russian-wave/street/200.gif",
+          "sha256": "2fd8f0cb208061eee4314390d91f0a5983f06e9aa435a8359d375bcc41725382",
+          "sizeBytes": 3106,
+          "frameCount": 12,
+          "durationMs": 1560,
+          "speedPercent": 200
         }
       ]
     },
@@ -103,10 +441,26 @@
       "title": "Сердце Балтики",
       "description": "Новый эффект, опубликованный без обновления APK",
       "type": "image",
-      "frames": [
+      "loop": false,
+      "preview": {
+        "file": "images/baltic-heart.png",
+        "sha256": "f65d75dacae1ca5510efcce8d338b32f3d419f8486fe6618ecc11aa86c45f935"
+      },
+      "variants": [
         {
-          "file": "images/baltic-heart.png",
-          "sha256": "f65d75dacae1ca5510efcce8d338b32f3d419f8486fe6618ecc11aa86c45f935",
+          "orientation": "normal",
+          "file": "gifs/baltic-heart/normal.gif",
+          "sha256": "f94d738c8c8ff5d62da5994fd6f6390bf181183176ab465c8e8f73b14c889db3",
+          "sizeBytes": 941,
+          "frameCount": 1,
+          "durationMs": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/baltic-heart/street.gif",
+          "sha256": "93c67b8a8dee7f98affce5a80817c21af01d8c893a014962b417b8d5aeeee6b0",
+          "sizeBytes": 942,
+          "frameCount": 1,
           "durationMs": 100
         }
       ]
@@ -117,126 +471,370 @@
       "description": "Кленовые листья кружатся на ветру и плавно падают",
       "type": "animation",
       "loop": true,
-      "frames": [
+      "preview": {
+        "file": "animations/autumn-leaves/frame-00.png",
+        "sha256": "56567da4b53ade890154d23f95617615717fa9db1f06cc5bd2369b907f6a929f"
+      },
+      "variants": [
         {
-          "file": "animations/autumn-leaves/frame-00.png",
-          "sha256": "56567da4b53ade890154d23f95617615717fa9db1f06cc5bd2369b907f6a929f",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/010.gif",
+          "sha256": "8aca0b86b8a6994185803e12b172a45de6401613ae36ddfaf09e53869a093b2d",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 60000,
+          "speedPercent": 10
         },
         {
-          "file": "animations/autumn-leaves/frame-01.png",
-          "sha256": "6dedd408575aa10c2f6a768431d5c90517bb2d2a9f1d57f6b202e6b3997940d2",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/020.gif",
+          "sha256": "6fd954118c160a8e8ed0cbb93c369e0becd1cbbcde0bed2888ca7314c83ce403",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 30000,
+          "speedPercent": 20
         },
         {
-          "file": "animations/autumn-leaves/frame-02.png",
-          "sha256": "873ac6b7c589254186711df61af9ccd5df54ec8adfccd77780dd3e47be2497b4",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/030.gif",
+          "sha256": "467a6fa9596207e95f141f1fa536606bfd78b836543557ef3bad59b873f2ff6a",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 19920,
+          "speedPercent": 30
         },
         {
-          "file": "animations/autumn-leaves/frame-03.png",
-          "sha256": "5316149fbeec38e6ea691b87e5aa024dc9f65523f301217209028db0da073ad9",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/040.gif",
+          "sha256": "595641426646903ea41a8b16babf5290e43db4bdba40e303e39c6a8f1c5a8fac",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 15120,
+          "speedPercent": 40
         },
         {
-          "file": "animations/autumn-leaves/frame-04.png",
-          "sha256": "488323afc457a1e9eb9cc27fbf8651da95624e9919a1bfe7c06b88aaf0e13439",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/050.gif",
+          "sha256": "2229d47db514fd3d8334ab5400f74c61947e6da089927b964b6a5f3899c17a3d",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 12000,
+          "speedPercent": 50
         },
         {
-          "file": "animations/autumn-leaves/frame-05.png",
-          "sha256": "9b6c8f4cf987214554270b48f9d6002b6c4fabe9ce4eb5a00a0a7a2d05b916d3",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/060.gif",
+          "sha256": "54b29ab4c165b69b1d78f9eed89fbff3b277cb6ba09a820c039f7a33ba48eb98",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 10080,
+          "speedPercent": 60
         },
         {
-          "file": "animations/autumn-leaves/frame-06.png",
-          "sha256": "a9579aa6dcc18035fda83b60472b326dff8a9e840600e69649362ba9e4b0d58e",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/070.gif",
+          "sha256": "fed2c6d36a2fa48e732a9add126d7468326e41befccdd03618d0699f3fe23781",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 8640,
+          "speedPercent": 70
         },
         {
-          "file": "animations/autumn-leaves/frame-07.png",
-          "sha256": "8149896adcbe801b1ab672099782cc68a095f522a58530f539959e559ce43132",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/080.gif",
+          "sha256": "ebdde45f2f0e69eb32151ed5f765399b7a40cff38e6691daecbc435224eed91d",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 7440,
+          "speedPercent": 80
         },
         {
-          "file": "animations/autumn-leaves/frame-08.png",
-          "sha256": "2ca7269d85f1ca8bddb2a8b983f3b33f1c56482d3627034f3e88c670fabb4dff",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/090.gif",
+          "sha256": "38ba561c2994eddafe98ef9fd38bb4c9526974a43f9620770138d529e10f2db7",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 6720,
+          "speedPercent": 90
         },
         {
-          "file": "animations/autumn-leaves/frame-09.png",
-          "sha256": "1d6309da7a7190baf4f01edd006a44c39e380827f8a506ab57a63f8b6855a22d",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/100.gif",
+          "sha256": "89037b151245b9807cf78f2c92a4618f4276ec7225aee1b9dc63e09b6566d380",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 6000,
+          "speedPercent": 100
         },
         {
-          "file": "animations/autumn-leaves/frame-10.png",
-          "sha256": "ee6470bfc852b268e985be6bf72522c40cdb50e3e64fdbe592967cefea859c51",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/110.gif",
+          "sha256": "d84cdbe392f8c790a4f133070bae43524fa33f472c04a0419e2c6d33ec23d66e",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 5520,
+          "speedPercent": 110
         },
         {
-          "file": "animations/autumn-leaves/frame-11.png",
-          "sha256": "8d59b4916ca2e13ea7d289787b25ed996acc14586fc4ec881cca5cf51c813bdd",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/120.gif",
+          "sha256": "57c5db27bd1b6c601322363dc1268aa674322e8a591beede8e729efa79812add",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 5040,
+          "speedPercent": 120
         },
         {
-          "file": "animations/autumn-leaves/frame-12.png",
-          "sha256": "605319dd734895bbd0a8eefdcdc8f715d0492d29365af229f0755b86dac7194c",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/130.gif",
+          "sha256": "4a59c01df84e558b28b16c8ae6bb8753f3de85b42ffaabfa98426b562bb4392d",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 4560,
+          "speedPercent": 130
         },
         {
-          "file": "animations/autumn-leaves/frame-13.png",
-          "sha256": "0ff962885e95c0a37297979757d790ce0b90ad05ea9163bb7364d03c90cb7b30",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/140.gif",
+          "sha256": "7f4a36e42877de73aa7819d07635e449da4ee821772f02e69ef80ba1bea2a790",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 4320,
+          "speedPercent": 140
         },
         {
-          "file": "animations/autumn-leaves/frame-14.png",
-          "sha256": "9bf95d7e978ad68b73772ab7796fe3a73b9e39662c11d07576aaaf9f50f97d19",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/150.gif",
+          "sha256": "d8b8e9cf64e51c8d2e229dfcd61dfddba184c397f3e44d7085596f91d9d52149",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 4080,
+          "speedPercent": 150
         },
         {
-          "file": "animations/autumn-leaves/frame-15.png",
-          "sha256": "b01a3db14978042b6ae4a8efe42339dbae1f4ee9741ae73411e4b0761307aee0",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/160.gif",
+          "sha256": "c7aad6781a4d2326e2e5ac91aaf5be2ab16b3c87761103d48cf8790ff8474505",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 3840,
+          "speedPercent": 160
         },
         {
-          "file": "animations/autumn-leaves/frame-16.png",
-          "sha256": "6d4e137391a20aea80551250a061682f58f9c9fb391d3c6c0ed3ddf52e100686",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/170.gif",
+          "sha256": "5147e24bc01a890602e688ef1f4a1b74d762bbbc4b556d69b23439442e8ac1bc",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 3600,
+          "speedPercent": 170
         },
         {
-          "file": "animations/autumn-leaves/frame-17.png",
-          "sha256": "fd814f78fe13707da8fa56ee2eec951451a2097162889d75049a215887ba5ae5",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/180.gif",
+          "sha256": "1ffb3d54f71c24bc348a9ef055c73b00d49b76abe8d36b6d981166894d0e8fcf",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 3360,
+          "speedPercent": 180
         },
         {
-          "file": "animations/autumn-leaves/frame-18.png",
-          "sha256": "f40c56daade8a57568726876aabe76d93cedc9ba3c5be0e0c6e0e579293d2013",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/190.gif",
+          "sha256": "c9b557d9816fa969c02a80cb4f3a07e36140136608fe707ff01d478a07f1c57e",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 3120,
+          "speedPercent": 190
         },
         {
-          "file": "animations/autumn-leaves/frame-19.png",
-          "sha256": "4f8fb54955fdade2e975071b34b2522deff3b34ddb2ea5724cd6049d3e6f78dc",
-          "durationMs": 100
+          "orientation": "normal",
+          "file": "gifs/autumn-leaves/normal/200.gif",
+          "sha256": "c9b557d9816fa969c02a80cb4f3a07e36140136608fe707ff01d478a07f1c57e",
+          "sizeBytes": 5372,
+          "frameCount": 24,
+          "durationMs": 3120,
+          "speedPercent": 200
         },
         {
-          "file": "animations/autumn-leaves/frame-20.png",
-          "sha256": "005dfcce4504f29adc7a76d4daf5edc65f7e30688bc7516fea54585a451722ea",
-          "durationMs": 100
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/010.gif",
+          "sha256": "4d0e03a44c491645695f84be94ca1de1f5cddab383b92ae279c30f5932620107",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 60000,
+          "speedPercent": 10
         },
         {
-          "file": "animations/autumn-leaves/frame-21.png",
-          "sha256": "6c48199d48ff5ce9a43cc67eebd4fcb44366235205d02bda956fad721717e65f",
-          "durationMs": 100
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/020.gif",
+          "sha256": "b660d7e3a66fd3eaa601bf00123833ad24e1b3b0009c121a4db73aa71b54e376",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 30000,
+          "speedPercent": 20
         },
         {
-          "file": "animations/autumn-leaves/frame-22.png",
-          "sha256": "f06c266effc928ace24a5a1266c877f0b9d44d9b82bb6ceb7d2c945354af7869",
-          "durationMs": 100
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/030.gif",
+          "sha256": "4b1422a481ef90332a019b042319dcbb30f8805123e6a31b856f530e32233f51",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 19920,
+          "speedPercent": 30
         },
         {
-          "file": "animations/autumn-leaves/frame-23.png",
-          "sha256": "c5c6548735224674be8a6e0859e9f3c93f1b507d6e2629d72e360b369fa7c48c",
-          "durationMs": 100
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/040.gif",
+          "sha256": "b64475e6e84a5237c5566c0938792eb6a4e4e4be794a42e8d6945bd310ca4247",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 15120,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/050.gif",
+          "sha256": "d9f928eb5008d65ead1ff12e847111ed68080d4825094fde096c900fe8fb819f",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 12000,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/060.gif",
+          "sha256": "76d7171539191f91b5fbc12ad01440159f77990a8fd286bfc43738aee6aa7409",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 10080,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/070.gif",
+          "sha256": "95f5871a3ece31a292dd6159ea3fb5b44141891ea863021061daa92fce5e5cfe",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 8640,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/080.gif",
+          "sha256": "d7528e3fff088d84d6ccd6a44f7974d9287697a209bca2385e81cc24e6618dfd",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 7440,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/090.gif",
+          "sha256": "15180734bf6eb11882ae2e2ffba2bf8a66a7b9b651f1ad9145df66e3bce3e061",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 6720,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/100.gif",
+          "sha256": "d2067bb90ed2e152f4f4210d013f9d31beefda4fe652029215764c41a9b88d12",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 6000,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/110.gif",
+          "sha256": "0f10b0502b8196b12a3cfbbf3a743c73675a4046c53865d63897399b0ad8d67c",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 5520,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/120.gif",
+          "sha256": "ee179ea0ad7a476726a3b7748e6814c01a1e909d5cf6b07ae5b8ff6797672ac9",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 5040,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/130.gif",
+          "sha256": "7c47e65688ef16c24e5d568b1ab7b3ea3bb192c65425735e07c57ac4b69959ff",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 4560,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/140.gif",
+          "sha256": "ad9c888c7d79c39c2cf2c2f0afc028f1a5c0467013ab6b22c37d729114fea7eb",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 4320,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/150.gif",
+          "sha256": "fa26cc63ae3921532ac99c3d5e530b186daa90cf61d4edc513ac9b1debe52e01",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 4080,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/160.gif",
+          "sha256": "ea5e515c66a7ae7be35cf3a0afd1d303d2cdbbe444ce734230f050a9fafc1a4f",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 3840,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/170.gif",
+          "sha256": "089d4b794487144f913211e0cd4b07577f4585221ae932e298f180ca926c6955",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 3600,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/180.gif",
+          "sha256": "a7c93061314fa62174a623b0087e579e9403febcd6d50dbe946cf133a9e5625c",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 3360,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/190.gif",
+          "sha256": "1d3f8d8f6ab1747d8d80aa0172d8d70990589f96323c887177df0b7294e7f160",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 3120,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/autumn-leaves/street/200.gif",
+          "sha256": "1d3f8d8f6ab1747d8d80aa0172d8d70990589f96323c887177df0b7294e7f160",
+          "sizeBytes": 5374,
+          "frameCount": 24,
+          "durationMs": 3120,
+          "speedPercent": 200
         }
       ]
     }

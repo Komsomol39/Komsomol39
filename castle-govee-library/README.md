@@ -1,38 +1,66 @@
-# CastleGovee Library
+# Castle GIF Library v2
 
-Public content library for the CastleGovee H70B6 30x32 LED curtain.
+Public, **ready-to-upload native GIF** library for Govee H70B6 (30 × 32 LEDs).
+Castle Lights does not generate or modify GitHub-gallery GIF files on the phone. Speed and reverse/street display are embedded in finished GIFs published here.
 
-- `catalog.json` defines static images and frame-based animations.
-- Assets are pixel-perfect 30x32 PNG with per-frame SHA-256 hashes.
-- Changes to catalog or PNGs appear in the Android gallery after refresh; no APK update required.
-- App reads content via HTTPS and caches verified PNGs offline.
-- Modes: original, horizontal flip, and center-symmetric mirror.
+## Rules
 
-Only image content and manifest are published here; no device keys, reports, credentials or phone data.
+- Source of truth: catalog.json with schema = 2, format = castle-govee-native-gif-v2.
+- Each item has an id, title, type (animation or image), optional description, a 30×32 PNG preview (file, sha256) and a variants array.
+- Each variant has orientation = normal or street, file, sha256, sizeBytes, frameCount and durationMs.
+- Animated variants also specify speedPercent: 10, 20, ... 200, in 10% steps. Only publish available speeds; the complete set is optional.
+- Static image variants DO NOT contain speedPercent, and NEVER display a speed menu.
+- The UI only offers an orientation if that variant exists and only offers speeds published for the selected orientation. Missing variants are never synthesized on Android.
+- Paths: gifs/<id>/<normal|street>/<3-digit speed>.gif for animations (e.g. gifs/russian-wave/normal/100.gif); gifs/<id>/<normal|street>.gif for static images.
+- normal = original image; street = horizontal mirror for viewing through the curtain from outdoors.
+- One final GIF file is downloaded by HTTPS, checked against its SHA-256 and exact byte count, cached on the phone, then uploaded through BLE after a deliberate user selection.
+- An autonomous GIF upload is only successful after controller acknowledgments A6 58 00 and 33 05 00.
 
-## Govee H70B6 autonomous GIF: measured limits
+## Published gallery
 
-The **GitHub gallery** and the **controller's native autonomous GIF mode** are two different playback mechanisms. The gallery stores separate PNG frames and their timings in `catalog.json`. Autonomous GIFs are compressed GIF87a/GIF89a data uploaded to the controller over BLE as `0x5D` effects and activated in DIY preview mode `254`. The controller can play a successfully accepted GIF without constant phone frame streaming.
+| Effect | Orientations | Speed presets | GIFs |
+| --- | --- | --- | ---: |
+| Russian waving flag | normal / street | 10% through 200% | 40 |
+| Autumn leaves | normal / street | 10% through 200% | 40 |
+| Svetlogorsk coat of arms | normal / street | none (static) | 2 |
+| Russian tricolor | normal / street | none (static) | 2 |
+| Baltic heart | normal / street | none (static) | 2 |
+| **Total** | | | **86** |
 
-Tests on H70B6 (2026-10-10) established the following *input file size* boundary using the same **30×32, 36,001-frame** red-clock GIF, padded to exact byte sizes using valid GIF comment extensions:
+## Example animation item
 
-| Compressed GIF file size | Actual result |
-| ---: | --- |
-| **1,048,560 bytes** | **Accepted**: device replied `A6 58 00`, then `33 05 00` |
-| **1,048,561 bytes** | **Not accepted**: no success ACK; BLE disconnected |
-| 1,048,568 bytes | Not accepted, reproduced twice |
-| 1,048,576 bytes (1 MiB) | Not accepted, reproduced twice |
+    {
+      "schema": 2,
+      "format": "castle-govee-native-gif-v2",
+      "width": 30, "height": 32,
+      "items": [{
+        "id": "example", "title": "Example",
+        "type": "animation", "loop": true,
+        "preview": {
+          "file": "animations/example/frame-00.png",
+          "sha256": "<SHA256 of 30x32 preview PNG>"
+        },
+        "variants": [{
+          "orientation": "normal",
+          "speedPercent": 100,
+          "file": "gifs/example/normal/100.gif",
+          "sha256": "<SHA256 of final GIF bytes>",
+          "sizeBytes": 4000, "frameCount": 12, "durationMs": 3000
+        }]
+      }]
+    }
 
-The boundary is **1 MiB − 16 bytes** for this tested device/transfer. The potential 16-byte protocol overhead is a hypothesis, **not** a measured RAM/Flash capacity. A file-size acceptance ACK does not prove complete visual playback, timing accuracy, or persistence after power cycling. Free/used controller memory cannot currently be queried through a verified command.
+For static images, omit speedPercent, set frameCount=1, and use gifs/<id>/normal.gif or gifs/<id>/street.gif.
 
-### Recommendations for GIF generators
+## Publication checklist
 
-- **Exact canvas:** 30×32 pixels. **Production target:** compressed GIF **≤1,000,000 bytes** for margin; **never upload above 1,048,560 bytes** through our tested H70B6 uploader.
-- Prefer short seamless loops, 2–16 color palettes as the scene allows, and **changed-rectangle GIF frames** with appropriate disposal. Monochrome GIFs can use a 2-color palette and **LZW minimum code size 2**. The tested red hour clock is **941,338 bytes for 36,001 frames**.
-- Frame complexity strongly affects compression. Neither a 36,001-frame cap nor a fixed animation-duration cap has been established for other visual content.
-- Verify frame count, 30×32 canvas, individual frame delays, visual continuity, decoded output, and final file byte count before publishing or deploying.
-- Mark a BLE transfer successful **only after** the controller acknowledges `A6 58 00` (data accepted) **and** `33 05 00` (preview activated); a completed BLE write alone is insufficient.
-- For the **GitHub gallery**, keep publishing verified **PNG frames and `catalog.json`**, not raw native GIFs. The current local gallery staging tool supports at most **80 frames** and **460 bytes per compressed PNG frame**. These gallery limits are unrelated to the native GIF upload ceiling.
-- Importing arbitrary user GIF files in the Android app is **temporarily hidden** while custom GIF artwork quality is being evaluated; tested built-in effects and GitHub gallery content remain available.
+1. Create the desired 30×32 animation and encode all supported final GIF89a variants OFF the phone. Bake individual frame delays into the GIF Graphic Control Extensions. At speed P, frame delay is approximately source delay × 100/P, rounded to 10ms.
+2. Verify decoded pixel frames, duration, loop, orientation, exact compressed file size and SHA-256. For H70B6, target **1,000,000 bytes or less per GIF**.
+3. Publish only the variants that exist. Upload every GIF and update catalog.json atomically in one Git commit so the mobile app never sees missing files.
+4. Never publish credentials, tokens, device identifiers, private logs or APKs.
 
-See the reusable [H70B6 GIF generator skill](skills/h70b6-gif-generator/SKILL.md) for the exact production checklist, validation workflow, and reference implementations.
+## Experimental H70B6 native GIF size boundary
+
+On the tested controller and padded 36,001-frame GIF, **1,048,560 bytes were accepted** but **1,048,561 bytes failed**. This is a measured input-file limit, NOT a measurement of free RAM or flash. Complex files may behave differently. Recommended production target: <= 1,000,000 bytes.
+
+Older schema 1 with PNG-frame streaming is deprecated for the gallery. A v2-compatible APK is required to use this catalog. GIF animation authoring and safety rules: skills/h70b6-gif-generator/SKILL.md.
