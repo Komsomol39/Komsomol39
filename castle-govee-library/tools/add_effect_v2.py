@@ -45,7 +45,7 @@ def gif_bytes(pixels,durations,loop):
     out=io.BytesIO()
     palette_frames[0].save(out,format="GIF",save_all=True,
         append_images=palette_frames[1:],duration=durations,
-        loop=0 if loop else None,disposal=1,optimize=False)
+        loop=0 if loop else None,disposal=1,optimize=True)
     encoded=out.getvalue()
     if not (35<len(encoded)<=MAX_GIF):
         raise ValueError("GIF file exceeds 1,000,000-byte safe limit")
