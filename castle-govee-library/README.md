@@ -64,3 +64,11 @@ For static images, omit speedPercent, set frameCount=1, and use gifs/<id>/normal
 On the tested controller and padded 36,001-frame GIF, **1,048,560 bytes were accepted** but **1,048,561 bytes failed**. This is a measured input-file limit, NOT a measurement of free RAM or flash. Complex files may behave differently. Recommended production target: <= 1,000,000 bytes.
 
 Older schema 1 with PNG-frame streaming is deprecated for the gallery. A v2-compatible APK is required to use this catalog. GIF animation authoring and safety rules: skills/h70b6-gif-generator/SKILL.md.
+
+## Add a new effect from a computer
+
+The repository includes a reusable [v2 authoring script](tools/add_effect_v2.py), which creates native GIF files, mirror variants, 10%-step speed presets, SHA-256 checksums and schema-2 manifest entries **before** publication. Requires Python and Pillow.
+
+    python castle-govee-library/tools/add_effect_v2.py --input animation.gif --id my-effect --title "My effect" --speeds all --orientations normal,street
+
+Review its output and publish all binaries plus catalog.json in one commit. The Android app does not generate the variants.
