@@ -4,17 +4,27 @@ from pathlib import Path
 ROOT = Path(r"D:\Project\CastleGovee\artwork\svetlogorsk-tower")
 ROOT.mkdir(parents=True,exist_ok=True)
 W,H = 30,32
-C = {'off':'#02050b','air':'#091426','roof_dark':'#51291f','roof':'#df7042','roof_light':'#ffa261','ridge':'#ffd19a','stone_dark':'#303235','stone':'#79756b','stone_light':'#c0b7a5','white':'#f3efe3','glass':'#131f2a','glass_light':'#79b8c1','gold':'#f9d27b','foliage':'#246a4a','grass':'#466f50','sand':'#68634c','heart':'#f88f71'}
+C = {'off':'#02050b','air':'#091426','roof_dark':'#51291f','roof':'#df7042','roof_light':'#ffa261','ridge':'#ffd19a','stone_dark':'#303235','stone':'#79756b','stone_light':'#c0b7a5','white':'#f3efe3','glass':'#131f2a','glass_light':'#79b8c1','gold':'#f9d27b','foliage':'#246a4a','grass':'#466f50','sand':'#68634c','heart':'#f88f71','wall_edge':'#ad6045','moon':'#ffe4a0','star':'#d7edff','dim_star':'#6099be'}
 
 def art(style='outline'):
     im=Image.new('RGB',(W,H),C['off']); d=ImageDraw.Draw(im)
     def poly(pts,fill,outline=None):d.polygon(pts,fill=C[fill] if fill else None,outline=C[outline] if outline else None,width=1)
     def line(pts,color,width=1):d.line(pts,fill=C[color],width=width)
     def rect(box,color):d.rectangle(box,fill=C[color])
-    poly([(5,14),(15,14),(15,30),(5,30)],'stone_dark' if style in ('outline','hybrid') else 'stone','stone_light')
+    if style=='hybrid':
+        # Deep night remains largely unlit; tiny stars read as isolated LEDs through tulle.
+        for x,y,col in [(18,2,'star'),(27,1,'dim_star'),(20,11,'dim_star'),(28,11,'star'),(18,9,'dim_star')]:
+            d.point((x,y),fill=C[col])
+        # Crescent in the free upper-right area. Pixel-drawn, not resized photography.
+        d.ellipse((22,3,28,9),fill=C['moon'])
+        d.ellipse((24,1,29,7),fill=C['off'])
+        d.point((23,8),fill=C['moon'])
+    poly([(5,14),(15,14),(15,30),(5,30)],'stone_dark' if style in ('outline','hybrid') else 'stone','wall_edge' if style=='hybrid' else 'stone_light')
     if style=='mosaic':
         rect((7,16,9,28),'stone_dark');rect((12,16,13,28),'stone_dark')
-    line([(6,17),(6,27)],'stone_light');line([(14,16),(14,26)],'stone_light')
+    # Warm brown high-tower side piers free the white architectural gallery to stand out.
+    side_color='wall_edge' if style=='hybrid' else 'stone_light'
+    line([(6,17),(6,27)],side_color);line([(14,16),(14,26)],side_color)
     d.ellipse((8,17,12,21),outline=C['white'],width=1); d.point((10,19),fill=C['gold'])
     line([(10,17),(10,16)],'white');line([(5,14),(15,14)],'white')
     for x in (6,9,12,14):d.arc((x-1,13,x+1,16),0,180,fill=C['white'])

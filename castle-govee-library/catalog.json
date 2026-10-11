@@ -1185,26 +1185,26 @@
     {
       "id": "baltic-heart",
       "title": "Сердце Балтики — Башня Светлогорска",
-      "description": "Узнаваемый силуэт старой водонапорной башни Светлогорска: белая галерея, знак, два красных купола",
+      "description": "Ночная башня Светлогорска: коричневые контуры, светлая галерея, месяц и звезды",
       "type": "image",
       "preview": {
         "file": "images/baltic-heart.png",
-        "sha256": "775c129d7717fafaad7d7cf7e80973f4c7ac3768e7f936ad6c0de99a82c18e93"
+        "sha256": "9f78b68caa2bf7fc2fe95fc7e787204ed514e5a706c0168a2c81f3902b276978"
       },
       "variants": [
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal.gif",
-          "sha256": "140046c6b5bb44bd76e90c3a0b4f7c1f7ef935080373ec82463ad6270888a06a",
-          "sizeBytes": 1068,
+          "sha256": "5680f9065fc41b3aa2a7294bdad4abebdaa8e4b5ba24a93c336325eef51c4509",
+          "sizeBytes": 1095,
           "frameCount": 1,
           "durationMs": 100
         },
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street.gif",
-          "sha256": "8680da389d6b16f794828eea6dc4abf17fb4d99aa849a5670ff5b5919cef2e9d",
-          "sizeBytes": 1070,
+          "sha256": "88048ec470dd192a51e84002840f99306b6aae887c14b481dba8e3db207106e0",
+          "sizeBytes": 1104,
           "frameCount": 1,
           "durationMs": 100
         }
