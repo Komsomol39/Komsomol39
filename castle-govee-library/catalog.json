@@ -437,35 +437,6 @@
       ]
     },
     {
-      "id": "baltic-heart",
-      "title": "Сердце Балтики",
-      "description": "Новый эффект, опубликованный без обновления APK",
-      "type": "image",
-      "loop": false,
-      "preview": {
-        "file": "images/baltic-heart.png",
-        "sha256": "f65d75dacae1ca5510efcce8d338b32f3d419f8486fe6618ecc11aa86c45f935"
-      },
-      "variants": [
-        {
-          "orientation": "normal",
-          "file": "gifs/baltic-heart/normal.gif",
-          "sha256": "f94d738c8c8ff5d62da5994fd6f6390bf181183176ab465c8e8f73b14c889db3",
-          "sizeBytes": 941,
-          "frameCount": 1,
-          "durationMs": 100
-        },
-        {
-          "orientation": "street",
-          "file": "gifs/baltic-heart/street.gif",
-          "sha256": "93c67b8a8dee7f98affce5a80817c21af01d8c893a014962b417b8d5aeeee6b0",
-          "sizeBytes": 942,
-          "frameCount": 1,
-          "durationMs": 100
-        }
-      ]
-    },
-    {
       "id": "autumn-leaves",
       "title": "🍂 Осенний листопад",
       "description": "Кленовые листья кружатся на ветру и плавно падают",
@@ -1210,6 +1181,34 @@
         }
       ],
       "loop": true
+    },
+    {
+      "id": "baltic-heart",
+      "title": "Сердце Балтики — Башня Светлогорска",
+      "description": "Узнаваемый силуэт старой водонапорной башни Светлогорска: белая галерея, знак, два красных купола",
+      "type": "image",
+      "preview": {
+        "file": "images/baltic-heart.png",
+        "sha256": "775c129d7717fafaad7d7cf7e80973f4c7ac3768e7f936ad6c0de99a82c18e93"
+      },
+      "variants": [
+        {
+          "orientation": "normal",
+          "file": "gifs/baltic-heart/normal.gif",
+          "sha256": "140046c6b5bb44bd76e90c3a0b4f7c1f7ef935080373ec82463ad6270888a06a",
+          "sizeBytes": 1068,
+          "frameCount": 1,
+          "durationMs": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/baltic-heart/street.gif",
+          "sha256": "8680da389d6b16f794828eea6dc4abf17fb4d99aa849a5670ff5b5919cef2e9d",
+          "sizeBytes": 1070,
+          "frameCount": 1,
+          "durationMs": 100
+        }
+      ]
     }
   ]
 }
