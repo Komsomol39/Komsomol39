@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "width": 30,
+  "height": 32,
+  "title": "Island at golden hour",
+  "seed": 1042,
+  "frames": 48,
+  "frameMs": 120,
+  "palette": {
+    "ink": "#10122A",
+    "sky0": "#231C4A",
+    "sky1": "#6A366B",
+    "sky2": "#BA627B",
+    "sky3": "#E89A74",
+    "sky4": "#F6B87F",
+    "sun": "#FFDE9A",
+    "cloud": "#F7B7A0",
+    "mountain": "#684A76",
+    "sea": "#24476C",
+    "foam": "#4BA3AF",
+    "sand": "#F2AA69",
+    "grass": "#6D8B5D",
+    "trunk": "#84553F",
+    "palm": "#245D52",
+    "bird": "#FFF2D4"
+  },
+  "layers": [
+    {
+      "type": "bands",
+      "rows": [
+        [
+          0,
+          "@sky0"
+        ],
+        [
+          5,
+          "@sky1"
+        ],
+        [
+          11,
+          "@sky2"
+        ],
+        [
+          16,
+          "@sky3"
+        ],
+        [
+          19,
+          "@sky4"
+        ]
+      ]
+    },
+    {
+      "type": "sun",
+      "x": 22,
+      "y": 9,
+      "r": 3,
+      "color": "@sun"
+    },
+    {
+      "type": "cloud",
+      "x": -5,
+      "y": 7,
+      "drift": 1,
+      "color": "@cloud"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          29,
+          18
+        ],
+        [
+          29,
+          23
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "color": "@mountain"
+    },
+    {
+      "type": "waves",
+      "y": 21,
+      "color": "@sea",
+      "highlight": "@foam"
+    },
+    {
+      "type": "island",
+      "x": 14,
+      "y": 23,
+      "color": "@sand",
+      "grass": "@grass"
+    },
+    {
+      "type": "palm",
+      "x": 16,
+      "y": 22,
+      "height": 10,
+      "sway": 1,
+      "color": "@trunk",
+      "leaves": "@palm"
+    },
+    {
+      "type": "bird",
+      "x": 12,
+      "y": 5,
+      "range": 4,
+      "bob": 1,
+      "color": "@bird"
+    }
+  ]
+}

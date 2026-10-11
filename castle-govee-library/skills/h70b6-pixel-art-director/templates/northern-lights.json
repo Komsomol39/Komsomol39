@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "width": 30,
+  "height": 32,
+  "title": "Northern light over the Baltic",
+  "seed": 512,
+  "frames": 48,
+  "frameMs": 130,
+  "palette": {
+    "ink": "#0C132D",
+    "night0": "#0C132D",
+    "night1": "#182748",
+    "night2": "#284269",
+    "star": "#D9F6E0",
+    "aur0": "#B7F6B2",
+    "aur1": "#4ADAA7",
+    "aur2": "#235C86",
+    "mountain": "#344E65",
+    "snow": "#93D7CE",
+    "water": "#122E55",
+    "foam": "#34758C",
+    "tree": "#0B2835"
+  },
+  "layers": [
+    {
+      "type": "bands",
+      "rows": [
+        [
+          0,
+          "@night0"
+        ],
+        [
+          9,
+          "@night1"
+        ],
+        [
+          17,
+          "@night2"
+        ]
+      ]
+    },
+    {
+      "type": "stars",
+      "color": "@star",
+      "count": 13,
+      "maxY": 17,
+      "cycles": 2
+    },
+    {
+      "type": "aurora",
+      "y": 5,
+      "height": 8,
+      "shades": [
+        "@aur0",
+        "@aur1",
+        "@aur2"
+      ],
+      "color": "@aur0"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          0,
+          21
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          29,
+          22
+        ],
+        [
+          29,
+          28
+        ],
+        [
+          0,
+          28
+        ]
+      ],
+      "color": "@mountain"
+    },
+    {
+      "type": "waves",
+      "y": 25,
+      "color": "@water",
+      "highlight": "@foam"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          0,
+          32
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          6,
+          32
+        ]
+      ],
+      "color": "@tree"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          24,
+          32
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          29,
+          24
+        ],
+        [
+          29,
+          32
+        ]
+      ],
+      "color": "@tree"
+    }
+  ]
+}
