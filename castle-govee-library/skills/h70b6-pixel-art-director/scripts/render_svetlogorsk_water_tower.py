@@ -19,12 +19,24 @@ def art(style='outline'):
         d.ellipse((22,3,28,9),fill=C['moon'])
         d.ellipse((24,1,29,7),fill=C['off'])
         d.point((23,8),fill=C['moon'])
-    poly([(5,14),(15,14),(15,30),(5,30)],'stone_dark' if style in ('outline','hybrid') else 'stone','wall_edge' if style=='hybrid' else 'stone_light')
+    # Tiny waist on the high shaft: 11 LED columns at shoulders, 9 at the waist,
+    # returning to its earlier width near the foot; gallery and roof stay unchanged.
+    if style=='hybrid':
+        shaft=[(5,14),(15,14),(15,17),(14,19),(14,23),(15,26),(15,30),
+               (5,30),(5,26),(6,23),(6,19),(5,17)]
+        poly(shaft,'stone_dark','wall_edge')
+    else:
+        poly([(5,14),(15,14),(15,30),(5,30)],'stone_dark' if style=='outline' else 'stone','stone_light')
     if style=='mosaic':
         rect((7,16,9,28),'stone_dark');rect((12,16,13,28),'stone_dark')
     # Warm brown high-tower side piers free the white architectural gallery to stand out.
     side_color='wall_edge' if style=='hybrid' else 'stone_light'
-    line([(6,17),(6,27)],side_color);line([(14,16),(14,26)],side_color)
+    if style=='hybrid':
+        line([(5,17),(6,19),(6,23),(5,26)],side_color)
+        line([(15,17),(14,19),(14,23),(15,26)],side_color)
+    else:
+        line([(6,17),(6,27)],side_color)
+        line([(14,16),(14,26)],side_color)
     d.ellipse((8,17,12,21),outline=C['white'],width=1); d.point((10,19),fill=C['gold'])
     line([(10,17),(10,16)],'white');line([(5,14),(15,14)],'white')
     for x in (6,9,12,14):d.arc((x-1,13,x+1,16),0,180,fill=C['white'])
