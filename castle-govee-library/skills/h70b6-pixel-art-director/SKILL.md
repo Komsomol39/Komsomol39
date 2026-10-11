@@ -33,6 +33,24 @@ Use for requests like "нарисуй чайку над морем", "сдела
 7. Create official finished v2 GIF variants with scripts/add_effect_v2.py, unique id, title, speed presets and mirror orientations in library-v2-staging or another safe working directory; verify exact hashes, frame counts and manifest against GIFs.
 8. Publish only when requested: use existing h70b6-gif-generator instructions (atomically commit all GIFs, previews and manifest); verify remote manifest and actual BLE controller acknowledgments A6 58 00 and 33 05 00. Successful write alone is not device success.
 
+## Case study: what NOT to do (original "Остров и чайка")
+
+This is a **negative example**, based on photos of the physical Govee H70B6 curtain viewed through sheer curtains. It is NOT a universal artistic recipe, and the redesigned animation is NOT a mandatory template. Decide what "good" should look like together with the user for every new scene.
+
+Original example: `island-sun-seagull`, pre-redesign 40-frame GIF (e.g. `gifs/island-sun-seagull/normal/100.gif` in the GitHub history before commit `8560eb9`). The controller accepted and displayed the file, but the user photo showed poor recognition.
+
+Avoid repeating these **specific failure modes** without checking the real display:
+- Filling most of the 30×32 field with similarly bright cyan/blue sky and water. On LEDs behind tulle these areas visually merged into a luminous haze, obscuring the subject. The issue was not "blue" itself, but the relative brightness, competing lit areas and real viewing environment.
+- Treating a clean enlarged PNG preview as proof that the composition will be readable on a 960-LED curtain. Small shapes and color boundaries became far less distinct through the fabric, LED spacing and camera exposure.
+- Giving background highlights, sun, water, sand, palm foliage and bird comparable visual weight all at once; the main silhouettes competed rather than reading as separate objects.
+- Having a bird whose wing flaps and path overlap or visually blend with the palm, sun or bright sky. A bird identifiable in an enlarged 30×32 bitmap may become random blinking dots at actual distance.
+- Adding frequent tiny wave/reflection detail because it looks decorative at zoom; at installation scale it turned into more scattered light points instead of legible scenery.
+- Confusing technical success (valid GIF, GitHub SHA-256, BLE upload and A6/58 + 33/05 acknowledgements) with **artistic success**. Transport/device ACK proves delivery and activation, not legibility or beauty.
+
+Outcome observed: after redesign, the user's next photograph and feedback were much more positive; however this only validates **that one scene under that viewing setup**, not any fixed formula such as "always black sky", "always giant palm", specific colors or compulsory silhouette sizes.
+
+**Future approach:** keep these mistakes in mind as pitfalls to investigate, not hard bans. For every new effect, discuss artistic direction with the user anew, compare its actual appearance on the curtain when possible, and allow deliberate exceptions when they serve the intended image.
+
 ## Art-quality rubric, manual (score 0-5)
 - Subject recognizable from a few meters at 30x32, not merely enlarged in preview.
 - Clear visual hierarchy, depth, negative space.
