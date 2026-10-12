@@ -29,6 +29,42 @@ def upright_moon(image):
 
 upright_moon(BASE)
 
+# A stylized small willow under the bright north-west star. Trunk at x2,
+# light drooping branches at x0-6. Exactly three foliage LEDs project over
+# the brown shaft on x5-6 (y20-24); no emblem, white gallery or lit windows
+# are obscured. Tree is held still so moon/meteor/windows remain the motion.
+def willow_at_tower(image):
+    d=ImageDraw.Draw(image)
+    dark="#163d2c"
+    forest="#276c46"
+    leaf="#499c63"
+    tips="#89bb70"
+    bark="#a86a41"
+    shadow="#72442b"
+    d.line([(2,30),(2,26),(3,22),(3,19)],fill=shadow,width=2)
+    d.line([(2,29),(2,25),(3,21)],fill=bark,width=1)
+    d.line([(3,21),(1,18),(1,16)],fill=shadow,width=1)
+    d.line([(3,20),(5,17),(5,15)],fill=bark,width=1)
+    d.line([(3,23),(5,20),(6,19)],fill=shadow,width=1)
+    d.polygon([(0,17),(1,15),(3,14),(5,15),(6,17),(5,19),
+               (6,21),(4,21),(3,23),(1,22),(0,20)],fill=dark)
+    d.line([(1,16),(3,15),(5,16)],fill=forest,width=1)
+    d.line([(0,18),(2,17),(4,18),(5,18)],fill=leaf,width=1)
+    d.line([(1,20),(3,19),(4,20)],fill=forest,width=1)
+    # Thin hanging leaf strands make it willow-like, but avoid sky sparkles.
+    for x,top,bottom in [(0,19,23),(1,20,24),(2,20,23),(4,19,24),(5,18,22)]:
+        d.line((x,top,x,bottom),fill=forest)
+    for x,y in [(1,16),(3,15),(4,17),(0,20),(2,19),(3,21),(4,22),(5,19)]:
+        d.point((x,y),fill=leaf)
+    for x,y in [(0,21),(2,17),(4,20),(5,21)]:
+        d.point((x,y),fill=tips)
+    # Gentle contact with the side of the tower: 2-3 leaf pixels, no
+    # bright roof arches or white landmark emblem are covered.
+    for x,y,c in [(5,23,forest),(6,22,forest),(5,26,dark)]:
+        d.point((x,y),fill=c)
+
+willow_at_tower(BASE)
+
 # Five architectural window openings, two occupied for exactly 50 frames each.
 # 0 left gallery, 1 right gallery, 2 left attic, 3 right attic, 4 ground floor.
 WINDOWS={

@@ -1185,18 +1185,18 @@
     {
       "id": "baltic-heart",
       "title": "Сердце Балтики — Ночная башня",
-      "description": "Башня с небольшой талией, яркая звезда в левом углу, два окна галереи горят по 5 секунд, метеор и месяц. 10% временно недоступна.",
+      "description": "Ива слева слегка заходит на башню, яркая звезда над ней, два окна галереи горят по пять секунд, месяц и метеор",
       "type": "animation",
       "preview": {
         "file": "animations/baltic-heart/frame-00.png",
-        "sha256": "abc2c028305ba8010a0fee9fdf188cb9716faa646d59a16edefadcaecd42b6ac"
+        "sha256": "b1ca9f5c01d3c4b0bbf8b23aef0b4467b97f859c6ec6fa07e493527fe7563fd1"
       },
       "variants": [
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/020.gif",
-          "sha256": "875beb0a0e58ba90b322418238aa5a88d18e377ff19cbd5c88a754933c4bcc77",
-          "sizeBytes": 50152,
+          "sha256": "3ed7ea57e889d660a448da473747d3681ca3ed4ab516f56ede77d62b3cca37fc",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 60000,
           "speedPercent": 20
@@ -1204,8 +1204,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/030.gif",
-          "sha256": "e97535de1d5b4fcd9b0111291908315184d88e6a45ddb068d4ba412f09972fa1",
-          "sizeBytes": 50152,
+          "sha256": "dec076d26519f8758c12303c55b15fd801123f22a7419030ed81fed6d7b19444",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 39910,
           "speedPercent": 30
@@ -1213,8 +1213,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/040.gif",
-          "sha256": "fa6ec9d66a380218eec6f7f806e6705aa04baef868d6825882aeb3b3499c0573",
-          "sizeBytes": 50152,
+          "sha256": "51aacf5d26d95b6a7caf6493bbc59415611e69a340a2edacf2b4ab060ef41b50",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 30000,
           "speedPercent": 40
@@ -1222,8 +1222,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/050.gif",
-          "sha256": "785ebef11c1fe0808640a7a13f525e108424b39fecfd4a504f556d7cb20d332f",
-          "sizeBytes": 50152,
+          "sha256": "fdc8af8448f82cc418f20f036e0988dd97c55787868076aebc21c5e3faaf3335",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 24000,
           "speedPercent": 50
@@ -1231,8 +1231,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/060.gif",
-          "sha256": "53ce78ab9b72f9c1782add26caecf4233f6753162edb89e1029a9bed83d1432e",
-          "sizeBytes": 50152,
+          "sha256": "75a0ee9405782df31d334593ea8192d8c9aa58a5fce69845abfa86e3ec03406d",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 20090,
           "speedPercent": 60
@@ -1240,8 +1240,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/070.gif",
-          "sha256": "b2b9bac2cb463f7ee721c9c3858a86f89ef4116e2bde0f0a40d808e0c6948d2f",
-          "sizeBytes": 50152,
+          "sha256": "77db92aff63627cf093035ca85276badc39c5490b507f151e92b38e6a15f26cf",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 17050,
           "speedPercent": 70
@@ -1249,8 +1249,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/080.gif",
-          "sha256": "bcb0449c85dcfc824a6253ed4c1a9fbc17f4dd6d854a64f48124181959ec94a5",
-          "sizeBytes": 50152,
+          "sha256": "f6c54b175db8a1f8ae287b710e3339d7c9b2947bba84319205cfa45bd5d5bae8",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 14800,
           "speedPercent": 80
@@ -1258,8 +1258,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/090.gif",
-          "sha256": "8045912bbdb51722b4ca7f563be2226d9dd174821d78e5ccde094e3c94680f41",
-          "sizeBytes": 50152,
+          "sha256": "ce8fbadc1e7437472a421ef77cc39de8e58c786d09d9c5b0d2611dbfd99e0c42",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 13280,
           "speedPercent": 90
@@ -1267,8 +1267,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/100.gif",
-          "sha256": "01029a6f3ea042b0552b4143e996d39fc13a60c5dbdc01e5d7ef8e35a1705b26",
-          "sizeBytes": 50152,
+          "sha256": "949bf75a96605dde167b81ce85a4d469b8fc12d43853f70d3e166a3fed96f7d2",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 12000,
           "speedPercent": 100
@@ -1276,8 +1276,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/110.gif",
-          "sha256": "33464e852cf28a4f8ac1c58e56f7fa644199156b26ac16392360aeeadcc87343",
-          "sizeBytes": 50152,
+          "sha256": "63225b8742d6b752bcaa92b6e561e91913d2f6dfb4ad3f486f2180c221df6a0a",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 10820,
           "speedPercent": 110
@@ -1285,8 +1285,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/120.gif",
-          "sha256": "d1bcf485715057cb4f2c6b76a6c32c8494fbd6b13bfc6714cce74b6d63e7d95f",
-          "sizeBytes": 50152,
+          "sha256": "fa3bdb684cf0e537672733f81b61766a4414b2def7a3ba61e7817e5333315eee",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 9910,
           "speedPercent": 120
@@ -1294,8 +1294,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/130.gif",
-          "sha256": "d6800f9c9add65f527cd5227d34472791d357b88f3e550c87f8975567584eaf9",
-          "sizeBytes": 50152,
+          "sha256": "265dea290fa62d517bca3a025aafdc4e4a459485d881b23e5886a0e39a5cbad6",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 9290,
           "speedPercent": 130
@@ -1303,8 +1303,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/140.gif",
-          "sha256": "49281d5a635950e97b196050f1a08f962aa41f7b3f12c11fd50f63b05ccb2638",
-          "sizeBytes": 50152,
+          "sha256": "db3e9df03ce98c97fdd321b38b7c86127291518ad29e639f44073817eb4a5d5b",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 8500,
           "speedPercent": 140
@@ -1312,8 +1312,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/150.gif",
-          "sha256": "4ace58c65aa2dfd1265d3ac63e9001a7cc22687ea82df47b9d348bb23612d571",
-          "sizeBytes": 50152,
+          "sha256": "3fbbe9989e8d327568d331a6fbb7afb9f5a1cc35579cdfc4fdc9c2022001cd21",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 8090,
           "speedPercent": 150
@@ -1321,8 +1321,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/160.gif",
-          "sha256": "f0f72e12f07798ad5606e7c6d694a425eb1b3c7d37e6bb2ac25e198f5882009a",
-          "sizeBytes": 50152,
+          "sha256": "bcb2bf4964e1d25bf0ba39f30decd827e29453e41e85feedde64d226587030d8",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 7360,
           "speedPercent": 160
@@ -1330,8 +1330,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/170.gif",
-          "sha256": "f3fb90e0736cb4141212bfcf4a7c33db13ed8b360884b55b1481001bbbc36bf4",
-          "sizeBytes": 50152,
+          "sha256": "68660d03b1f53f91850738e0c5d98707db4d9546d799f2ffea97e210df878904",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 7120,
           "speedPercent": 170
@@ -1339,8 +1339,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/180.gif",
-          "sha256": "6ea4f94f3a314d08c9cbd38dea1f40f811950701f0caa01aef30f3ff3b0a48e7",
-          "sizeBytes": 50152,
+          "sha256": "9b32612c5448fc36c715725784df6577bd07256f5fe72fc4446014a19b5bf72a",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 6850,
           "speedPercent": 180
@@ -1348,8 +1348,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/190.gif",
-          "sha256": "ce682bb2a0e4feeb63a12af293d4f190bd0bb575291b87b4c66df3dc062cb846",
-          "sizeBytes": 50152,
+          "sha256": "60c25ecc9e74b4d4dabce3ff50f64d9c2fad4b5ee863b726e7a97b0e04db6efa",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 6250,
           "speedPercent": 190
@@ -1357,8 +1357,8 @@
         {
           "orientation": "normal",
           "file": "gifs/baltic-heart/normal/200.gif",
-          "sha256": "ce5d077dccb490b1593f839c101351ccba6be603479871cfd7606f0c325d91fb",
-          "sizeBytes": 50152,
+          "sha256": "0d136ae93e27c1f39e4e21881d4b86e09b9e00f012974451ada2781e56397b54",
+          "sizeBytes": 50203,
           "frameCount": 62,
           "durationMs": 6000,
           "speedPercent": 200
@@ -1366,8 +1366,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/020.gif",
-          "sha256": "5c15a042c47b36d255981d23c283ff651969cfdca367299dd335a628a0a2f8e2",
-          "sizeBytes": 50159,
+          "sha256": "10d42d75106978e41dd6dc730cd5098a0bcdd7ec5952a219469515494cf78c29",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 60000,
           "speedPercent": 20
@@ -1375,8 +1375,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/030.gif",
-          "sha256": "3a68e5f50bb3b32f88a3f3b6e55b389ec3d9a5e8f098dd495b09d3c63e5ec47b",
-          "sizeBytes": 50159,
+          "sha256": "c7fdfeb88662a2990e9399423a167df0f8ce34d401c599144c605cbd8125eea5",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 39910,
           "speedPercent": 30
@@ -1384,8 +1384,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/040.gif",
-          "sha256": "571ce680e1aa0e6e57d4fcd8a135e490ecc034cec0c206f2a499b8008a140947",
-          "sizeBytes": 50159,
+          "sha256": "a9ad42e40ae624b03657b6366b88896c5a0e1d4d9aaf87a9ce703cd00186121d",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 30000,
           "speedPercent": 40
@@ -1393,8 +1393,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/050.gif",
-          "sha256": "6e572436b96ce99cecf336f889fb79822864c623f6a56579949503201e2b8b37",
-          "sizeBytes": 50159,
+          "sha256": "0c1df3262152c5e9c73fb83e85ff3742da8f511c4cbe84e7d00b6cfab5f2e09c",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 24000,
           "speedPercent": 50
@@ -1402,8 +1402,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/060.gif",
-          "sha256": "51546ce61161fc3d78ff389193b78a8ae4f8f1793a877e63d5bf7ffdc5ae9534",
-          "sizeBytes": 50159,
+          "sha256": "8a85b45d1c1da4b276be2dcf9a5d4ba3a44a2b517d5ce300569a28fef2e989bf",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 20090,
           "speedPercent": 60
@@ -1411,8 +1411,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/070.gif",
-          "sha256": "8b1892a81f50588bf5a509cf6fe844a8a00e63bc79e3ddbc32445e9ae834c2d7",
-          "sizeBytes": 50159,
+          "sha256": "38a3f7794925f40bf7963f3a48e7b148a32d8a71e0c4f2831c238c3722d36e81",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 17050,
           "speedPercent": 70
@@ -1420,8 +1420,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/080.gif",
-          "sha256": "0e3173c154390be37742871d526f77736b2c19b310db5ee2432e530322f6efd2",
-          "sizeBytes": 50159,
+          "sha256": "17df45760710859fdc374c6cb350e443780067b22220a255a15e5930c1ca5bc2",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 14800,
           "speedPercent": 80
@@ -1429,8 +1429,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/090.gif",
-          "sha256": "e20f80eeb1b0cb0cab61e6273f0e68730e7c0de142502a9d21cfe9d39e9ac625",
-          "sizeBytes": 50159,
+          "sha256": "755ae86aee3cb69f2a259b47822fd706cdabac083369f911bebeffa95911bf07",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 13280,
           "speedPercent": 90
@@ -1438,8 +1438,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/100.gif",
-          "sha256": "d47001b4985f524995d82a160abe07a8b24f70ba047c5adc25b2bc667a0193dc",
-          "sizeBytes": 50159,
+          "sha256": "22a587327d8bfa885386fe3ff1e4557de4602b2e5f550b542fead14538d38dd5",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 12000,
           "speedPercent": 100
@@ -1447,8 +1447,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/110.gif",
-          "sha256": "85b82cceab3edc37443844f2e8f358104db23e5f210bdfaa7462eae36e94d700",
-          "sizeBytes": 50159,
+          "sha256": "1352cee11f14e57ec233028adf9a26f18b6ff93ff465cdfcb556bcf02b43476b",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 10820,
           "speedPercent": 110
@@ -1456,8 +1456,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/120.gif",
-          "sha256": "2543f08c05f7b0b5dd22586b0800042aab7e88453041d5c391a7de593cf63947",
-          "sizeBytes": 50159,
+          "sha256": "86ba2a6454381aca3e755a6c8bd4fe8a706cb30ce0e1b59eabddae826714e155",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 9910,
           "speedPercent": 120
@@ -1465,8 +1465,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/130.gif",
-          "sha256": "0d4c5911705bff2c9e8746d76c9b9b5e468ab554d3553482551f7eea2368a59d",
-          "sizeBytes": 50159,
+          "sha256": "798d2172013efc67565c1789e40d21b46526a55e5d1b8033ecb97f2a818a2810",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 9290,
           "speedPercent": 130
@@ -1474,8 +1474,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/140.gif",
-          "sha256": "c69cdece2732911af358fa52d77839645e8dd6fd4d0c5301af5bd674473b2614",
-          "sizeBytes": 50159,
+          "sha256": "40153603b93200cb45db5c2d564cc63caa248724027c8765a80409ae7ccd62c1",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 8500,
           "speedPercent": 140
@@ -1483,8 +1483,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/150.gif",
-          "sha256": "ef2558ab565a3280305ff730f4272e3c68a8d803bedb39fd02871c03328691c9",
-          "sizeBytes": 50159,
+          "sha256": "e33aaa7b575127dac7134caf19410707abb0abb250ad9af5f0cbeca5e50fc3f7",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 8090,
           "speedPercent": 150
@@ -1492,8 +1492,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/160.gif",
-          "sha256": "06dc6836600fbec7743c9cd0bfe245ff7308396ece8d5a2ab25b424e2d989d26",
-          "sizeBytes": 50159,
+          "sha256": "93d00a7d094f32082c4b5bb65e6cb3b1db1614ca50e92d6d0bd5e7b1d1fbc196",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 7360,
           "speedPercent": 160
@@ -1501,8 +1501,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/170.gif",
-          "sha256": "275f90565f6c22bb5ffc93af1003b90561834039c912c6a4a1189a99ba8f3bc1",
-          "sizeBytes": 50159,
+          "sha256": "f03bdcb78ee08a8e012e810938291b4800ded3cc60559afefab583969a7680a7",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 7120,
           "speedPercent": 170
@@ -1510,8 +1510,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/180.gif",
-          "sha256": "314f0d5b1edea4779b438c9634ff524b1e55ed7d367273cdda1c342a4f8dff8f",
-          "sizeBytes": 50159,
+          "sha256": "8dbbef8d7e50ed55fe6de411a452d2b3ddfbaddfcfa9c03d7d579d2e3f7c25d9",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 6850,
           "speedPercent": 180
@@ -1519,8 +1519,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/190.gif",
-          "sha256": "566abc285de904d7c500db17f2b5d3ae2d6a5c66894e9f0d0a3098864d821310",
-          "sizeBytes": 50159,
+          "sha256": "aee893f87df95deaeda4c02cd925ad5ecc4b7fd460087ba1af7b2f73558718a5",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 6250,
           "speedPercent": 190
@@ -1528,8 +1528,8 @@
         {
           "orientation": "street",
           "file": "gifs/baltic-heart/street/200.gif",
-          "sha256": "b892257e44b653e4191939da0e4f8dedb205328676d1200c7546c9da0f42ca05",
-          "sizeBytes": 50159,
+          "sha256": "9a9e99818a32f25b335fed77483cf8dd03a13314c7d0a2e142dabfcd11c026e5",
+          "sizeBytes": 50214,
           "frameCount": 62,
           "durationMs": 6000,
           "speedPercent": 200
