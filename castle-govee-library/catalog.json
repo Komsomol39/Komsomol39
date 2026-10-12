@@ -1536,6 +1536,379 @@
         }
       ],
       "loop": true
+    },
+    {
+      "id": "matrix-digital-rain",
+      "title": "Матрица — зелёный код",
+      "description": "Цифровой дождь в духе оригинальной Матрицы 1999: вертикальные потоки псевдосимволов, зелёные следы и яркие ведущие знаки",
+      "type": "animation",
+      "preview": {
+        "file": "animations/matrix-digital-rain/frame-00.png",
+        "sha256": "68113660a1f541dde9e1c05466202092c0ca1527eb52f47fe4abe6b804c5c00a"
+      },
+      "variants": [
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/010.gif",
+          "sha256": "22167f408950f43c11df113c5498a5b6c1ffe4e77866ce766d32c8f4fae70488",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 96000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/020.gif",
+          "sha256": "7391aafc912bde2da7df930d88daeff4bdf3c07636ab16fc1f939bb00d129180",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 48000,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/030.gif",
+          "sha256": "0bf3a39426aa8db79cf74d327cf724d5f5eafdf95b0bdfe95c89579ab474199e",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 31680,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/040.gif",
+          "sha256": "10931128bc1b3ff161e85bc8e4adb0541009df69f2582b8055ffbf74dd2416cf",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 24000,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/050.gif",
+          "sha256": "2c12d8571192d8f9d7388ea66bc84e9f3e37f43687ba6ef755a3f9e66943137d",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 19200,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/060.gif",
+          "sha256": "42bf7bbfef0ea433008fc769d9c31ee9bc2d953a47a15296efb7e5defac7fedc",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 16320,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/070.gif",
+          "sha256": "e4868ca9ba027e570b0ed1536115950299d25655a155411d2aa3f4bb52622e4e",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 13440,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/080.gif",
+          "sha256": "8fda9b514bbd1d4cc55aab7a88fe5090c2bb55a84585bd45fe25b7d88c667f15",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 11520,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/090.gif",
+          "sha256": "e2de440b4d73125eb1ca2b11606ca04a1172c48a406ed908958d0f0d97323ea8",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 10560,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/100.gif",
+          "sha256": "944a72d82b5abbf79fd2ef88013945cd8fbf19e9aaf10b808293b79e3e427658",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 9600,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/110.gif",
+          "sha256": "183dba6baed0abe8f17d469ea8a5471e1826208f24d78ab7924b870826a4b033",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 8640,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/120.gif",
+          "sha256": "2b6480b62861794ec7438b9ff5565d8a0228f64a9df080770e79a46a1abfef8d",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 7680,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/130.gif",
+          "sha256": "2b6480b62861794ec7438b9ff5565d8a0228f64a9df080770e79a46a1abfef8d",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 7680,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/140.gif",
+          "sha256": "9e81780b4a7d6f052176b355c1dea042371a37d0bea3ac2c7e5de6ce0fdc1d40",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 6720,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/150.gif",
+          "sha256": "9e81780b4a7d6f052176b355c1dea042371a37d0bea3ac2c7e5de6ce0fdc1d40",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 6720,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/160.gif",
+          "sha256": "48bfaf5ead66a1ffe617c7d234dc6faeaa90bff8370c9b969020261723e401ae",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/170.gif",
+          "sha256": "48bfaf5ead66a1ffe617c7d234dc6faeaa90bff8370c9b969020261723e401ae",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/180.gif",
+          "sha256": "48bfaf5ead66a1ffe617c7d234dc6faeaa90bff8370c9b969020261723e401ae",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/190.gif",
+          "sha256": "d07e41ec86798e718776ccfd3e461d4df696d3eaba4ac2711c3a17e9c69e4405",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 4800,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-digital-rain/normal/200.gif",
+          "sha256": "d07e41ec86798e718776ccfd3e461d4df696d3eaba4ac2711c3a17e9c69e4405",
+          "sizeBytes": 88720,
+          "frameCount": 96,
+          "durationMs": 4800,
+          "speedPercent": 200
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/010.gif",
+          "sha256": "9832a7c8cac56a269006f98e1e95be5087e2627bf9a2f445700238967468fa10",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 96000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/020.gif",
+          "sha256": "9acf3f1da646de050f5ed8082de7e32aa71460d729846ea721d897c53f713a48",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 48000,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/030.gif",
+          "sha256": "9a16a2f06725dad80cc2816a84c5eb599835ed5ea68eac029887c7cb13d4425f",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 31680,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/040.gif",
+          "sha256": "49665f53eb1cbea24fde4f72e93854fb65480dad4c55b24a7ac940395f407da6",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 24000,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/050.gif",
+          "sha256": "e63162d283ebb2815844b99093ffb6f9354600ccd3263627105518ce47c3895c",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 19200,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/060.gif",
+          "sha256": "da10eafbb4a77fe2d1e6458fec4977b232177ca587b161a332048310e692774d",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 16320,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/070.gif",
+          "sha256": "5f5201912803d4bbaae7d62bdb8485c6a49c194d6b03313664de758ea8f5e054",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 13440,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/080.gif",
+          "sha256": "1f9acbbb5fb03131cbfe29356ae79b2e70eb5c8cf1f65c32860fb442ae0f3846",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 11520,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/090.gif",
+          "sha256": "2c755fa1c22a5a679c096cf3f367776a7ad41fea36ec844c2be2c419eac06fc3",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 10560,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/100.gif",
+          "sha256": "cf1b30cadc83f4cd103e154c9725c5ed403025fd0a730f21f03686454fde5d5d",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 9600,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/110.gif",
+          "sha256": "b55115cdd92841de1f3e47940929eebb0cf5e92aae9142edcc3283acae72b2fc",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 8640,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/120.gif",
+          "sha256": "d6629327e3f6f06575d36c226bf5aa9ae87f3f09dc7da68aba06de3806182360",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 7680,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/130.gif",
+          "sha256": "d6629327e3f6f06575d36c226bf5aa9ae87f3f09dc7da68aba06de3806182360",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 7680,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/140.gif",
+          "sha256": "69eac5696906d5473964bc53299282f829f83176247c0557b1bb27c40625149a",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 6720,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/150.gif",
+          "sha256": "69eac5696906d5473964bc53299282f829f83176247c0557b1bb27c40625149a",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 6720,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/160.gif",
+          "sha256": "99bf71e8258fa8dc37e5d0c396ecd35e276ce57259e06f39a1e6e094d73dca51",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/170.gif",
+          "sha256": "99bf71e8258fa8dc37e5d0c396ecd35e276ce57259e06f39a1e6e094d73dca51",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/180.gif",
+          "sha256": "99bf71e8258fa8dc37e5d0c396ecd35e276ce57259e06f39a1e6e094d73dca51",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 5760,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/190.gif",
+          "sha256": "100ce11dad36483448f850c6b9b0b1238f69665872ac0f2e2a22e46e04dd897d",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 4800,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-digital-rain/street/200.gif",
+          "sha256": "100ce11dad36483448f850c6b9b0b1238f69665872ac0f2e2a22e46e04dd897d",
+          "sizeBytes": 88732,
+          "frameCount": 96,
+          "durationMs": 4800,
+          "speedPercent": 200
+        }
+      ],
+      "loop": true
     }
   ]
 }
