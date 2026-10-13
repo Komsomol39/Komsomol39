@@ -1913,7 +1913,7 @@
     {
       "id": "matrix-white-rabbit",
       "title": "Матрица — Белый кролик",
-      "description": "24 секунды: кролик выходит слева, останавливается, оглядывается и естественными прыжками исчезает вдали; зелёный цифровой дождь",
+      "description": "Кролик с округлой спиной и естественными лапами выходит, осматривается, затем убегает вдаль и исчезает белой точкой; 24 секунды",
       "type": "animation",
       "preview": {
         "file": "animations/matrix-white-rabbit/frame-00.png",
@@ -1923,8 +1923,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/010.gif",
-          "sha256": "e18823b4710f244dc8a6e6796ea7104612d29c62f609c8bdbea98fd01bc2db44",
-          "sizeBytes": 221835,
+          "sha256": "49b9114a762ee8a7e755f1fc43258522a06a7df2154afbb3b57f5f5cbc3f78d0",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 240000,
           "speedPercent": 10
@@ -1932,8 +1932,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/020.gif",
-          "sha256": "518761c9aa555addad8dfae8abef85eae6c49fad2622339cdf4f8b977289ac59",
-          "sizeBytes": 221835,
+          "sha256": "bfd65c41c78d85e85a661d08fd869fc776d5d6f084990c5ee0b98d397a7bf715",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 120000,
           "speedPercent": 20
@@ -1941,8 +1941,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/030.gif",
-          "sha256": "43c1f95b4d054c66be10caf36b48b20fdfbc28c7fbbe3b6ace78acf0769d8e7b",
-          "sizeBytes": 221835,
+          "sha256": "a1cb85041c0e5991fc960a68bed50f756a2a24ec03fa9d9665b43d588a1d5a8d",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 79200,
           "speedPercent": 30
@@ -1950,8 +1950,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/040.gif",
-          "sha256": "67ae79a8accac61a7b536b2ead5253cd6f4466090676201d163831d74bb9f328",
-          "sizeBytes": 221835,
+          "sha256": "dbb5862efa46796ce3e837f8c90c31bdc7589e2ac60eff12936ff56ae61b2eeb",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 60000,
           "speedPercent": 40
@@ -1959,8 +1959,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/050.gif",
-          "sha256": "00b477a22312ea5a81ca1cedd51361efca75615704d16864409a1cef638cdecd",
-          "sizeBytes": 221835,
+          "sha256": "bc222b43120e4fd409dbc5452cb21dd4c4bd9513a26ccf9bdaecdac54902a6d8",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 48000,
           "speedPercent": 50
@@ -1968,8 +1968,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/060.gif",
-          "sha256": "1be383b7ca5cb8c309076b951ba026fc925c245aa271c82b1493c4db3967f920",
-          "sizeBytes": 221835,
+          "sha256": "4f5c945e91dab21b250f057f37ac07523aa2a87161b2e6ba906680a4adb5d9ae",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 40800,
           "speedPercent": 60
@@ -1977,8 +1977,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/070.gif",
-          "sha256": "3e013c7352dabeaf6c75cb7208a098f675c87cc49197e8ba6763a9f873532c99",
-          "sizeBytes": 221835,
+          "sha256": "1efb23e36bebc616502177e9c7d7cd6435c2fd701bb1bf9d8c1cecf0d6dc4057",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 33600,
           "speedPercent": 70
@@ -1986,8 +1986,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/080.gif",
-          "sha256": "3e7b092326555f60568cae0657146e153b3295842d93b5e916cd3a0a3a03d6ef",
-          "sizeBytes": 221835,
+          "sha256": "31c9dd6c2ec3354152f8fae24f2d767b4b498b98081391d1f8eb17aa80bfc102",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 28800,
           "speedPercent": 80
@@ -1995,8 +1995,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/090.gif",
-          "sha256": "fbc2efc3943071986eea82d179341fcde060a51918ad818d0f83c3b66e9fed13",
-          "sizeBytes": 221835,
+          "sha256": "9d5c72b3a57bc131a56039f99606326425edb8fa99e4d3a9cae74193298543e4",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 26400,
           "speedPercent": 90
@@ -2004,8 +2004,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/100.gif",
-          "sha256": "9ee71fc32e85a59b7d8a76c7bb8e9510f3a86cf644bb0ff951d3bae13ca588ea",
-          "sizeBytes": 221835,
+          "sha256": "4d6b7fd8d3857eb02db6c19a1eeb069b24482ef968f6aace10abd6c2af3765ac",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 24000,
           "speedPercent": 100
@@ -2013,8 +2013,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/110.gif",
-          "sha256": "446e4992ae2637ea86859e68f03579f41c532efc48b50171522e3b91ae885205",
-          "sizeBytes": 221835,
+          "sha256": "f751b436eedfb8660f7ad72a6244cf5a7ad09e9367cb3da626f8f1f5f2abad57",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 21600,
           "speedPercent": 110
@@ -2022,8 +2022,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/120.gif",
-          "sha256": "408234fcc66e2dcef9883657e0d15e23d931aea83c06df1cc4c548347bf145ba",
-          "sizeBytes": 221835,
+          "sha256": "9c026f5b0689ad3badbf34411ea605008b599214a45e457d8c9aec08a962eb4b",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 19200,
           "speedPercent": 120
@@ -2031,8 +2031,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/130.gif",
-          "sha256": "408234fcc66e2dcef9883657e0d15e23d931aea83c06df1cc4c548347bf145ba",
-          "sizeBytes": 221835,
+          "sha256": "9c026f5b0689ad3badbf34411ea605008b599214a45e457d8c9aec08a962eb4b",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 19200,
           "speedPercent": 130
@@ -2040,8 +2040,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/140.gif",
-          "sha256": "a4dd2d64f8eecceda4e519c95af60f488fbb03b82ab7c36c6ae3505cfae64af5",
-          "sizeBytes": 221835,
+          "sha256": "f11bbab0c0d70533da7d43d2791fcf25d45e0d3e3819320091f17eb46de73081",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 140
@@ -2049,8 +2049,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/150.gif",
-          "sha256": "a4dd2d64f8eecceda4e519c95af60f488fbb03b82ab7c36c6ae3505cfae64af5",
-          "sizeBytes": 221835,
+          "sha256": "f11bbab0c0d70533da7d43d2791fcf25d45e0d3e3819320091f17eb46de73081",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 150
@@ -2058,8 +2058,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/160.gif",
-          "sha256": "a4d14a7d38ddf064c7a4276248cdab2915d0d2c08168a18152ee031ff217fc4f",
-          "sizeBytes": 221835,
+          "sha256": "34d8696770fd7f2c9350d71b74932ce5d26949cb6ca999c77bf52fa367a33828",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 160
@@ -2067,8 +2067,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/170.gif",
-          "sha256": "a4d14a7d38ddf064c7a4276248cdab2915d0d2c08168a18152ee031ff217fc4f",
-          "sizeBytes": 221835,
+          "sha256": "34d8696770fd7f2c9350d71b74932ce5d26949cb6ca999c77bf52fa367a33828",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 170
@@ -2076,8 +2076,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/180.gif",
-          "sha256": "a4d14a7d38ddf064c7a4276248cdab2915d0d2c08168a18152ee031ff217fc4f",
-          "sizeBytes": 221835,
+          "sha256": "34d8696770fd7f2c9350d71b74932ce5d26949cb6ca999c77bf52fa367a33828",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 180
@@ -2085,8 +2085,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/190.gif",
-          "sha256": "8b22ba64318f1149ce451eccbdf05c2f4222b99bf8e68d7c2c956795f3dc165d",
-          "sizeBytes": 221835,
+          "sha256": "8e5875e8bff75b527bf1dc6d54b0f77564378e5fcefe64a56de2899b977000de",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 12000,
           "speedPercent": 190
@@ -2094,8 +2094,8 @@
         {
           "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/200.gif",
-          "sha256": "8b22ba64318f1149ce451eccbdf05c2f4222b99bf8e68d7c2c956795f3dc165d",
-          "sizeBytes": 221835,
+          "sha256": "8e5875e8bff75b527bf1dc6d54b0f77564378e5fcefe64a56de2899b977000de",
+          "sizeBytes": 222098,
           "frameCount": 240,
           "durationMs": 12000,
           "speedPercent": 200
@@ -2103,8 +2103,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/010.gif",
-          "sha256": "18797f82b4a1cdb047c2ac537c1282b987a4dfc17d761c973088a1b7da7ea02a",
-          "sizeBytes": 221838,
+          "sha256": "f43982fc63ea23ffa6300a7bdf2243d8253a9925f8da7c8078d265bed456d968",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 240000,
           "speedPercent": 10
@@ -2112,8 +2112,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/020.gif",
-          "sha256": "b11b8b41e286e5615e7b8b87740ba023a8aeac7542edb1fa5090cd7cc481eef6",
-          "sizeBytes": 221838,
+          "sha256": "d44b91cc97af541d28eb66b97e841961fdb46de2dcb3fcb42df92c25e3fae87c",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 120000,
           "speedPercent": 20
@@ -2121,8 +2121,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/030.gif",
-          "sha256": "76b71235fed55e597d377a8879d15a5421d96cbbb5e751124ed5051f0a6a4ef9",
-          "sizeBytes": 221838,
+          "sha256": "720b3c6351f904a9767168fe45c7c6067020d7fabcd2d4b607306d1287e06d83",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 79200,
           "speedPercent": 30
@@ -2130,8 +2130,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/040.gif",
-          "sha256": "11d7ed42692d4d73b17382f79ea962f7b8974fcc98eeedce16398e177a6f3771",
-          "sizeBytes": 221838,
+          "sha256": "2d2a7e191931367a9184db51c2f2e9d50d04b5216bdbd39b465b43d55ceffb11",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 60000,
           "speedPercent": 40
@@ -2139,8 +2139,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/050.gif",
-          "sha256": "fccfbb954f061a09c12779a38c9b50016591db97a2ac9ca8d7770974a7cfa6c8",
-          "sizeBytes": 221838,
+          "sha256": "e390f0988a5084f3ab0fcd3a09269ead23153ee2bf182fbfe62169ae50156813",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 48000,
           "speedPercent": 50
@@ -2148,8 +2148,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/060.gif",
-          "sha256": "795794713064c922b87d13407fda937bb57da36c805739355fa3c228426773b0",
-          "sizeBytes": 221838,
+          "sha256": "35655f03689129dc8f67d04b955baa830724fe7ee2f880b8846a9a86a9e8cb8d",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 40800,
           "speedPercent": 60
@@ -2157,8 +2157,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/070.gif",
-          "sha256": "9407a1cd970294dfe574f2517aa4ad10c56ec7fcf46e42393654a1c6791aba68",
-          "sizeBytes": 221838,
+          "sha256": "32a4929690eb4afb6aee5e7f3da04dba57f72ef5adf5a81ae4c9062da1a80a99",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 33600,
           "speedPercent": 70
@@ -2166,8 +2166,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/080.gif",
-          "sha256": "5d28812d5910aebe9adf518585ba60dde7422e8347eca262464faeb8c0492284",
-          "sizeBytes": 221838,
+          "sha256": "307de0f2c7625a04a4325399e92717d11a15f87d659ccef89733e8501cdf313b",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 28800,
           "speedPercent": 80
@@ -2175,8 +2175,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/090.gif",
-          "sha256": "ae4c6989dd496ddd4c13ca6019c81318f591f272038825de66ae5de6088a696d",
-          "sizeBytes": 221838,
+          "sha256": "2882450448100df9d9dde1ae121ae35e03c6ccd78557e92eafe736a284b98542",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 26400,
           "speedPercent": 90
@@ -2184,8 +2184,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/100.gif",
-          "sha256": "426018e6bae6ab8771af8f073225bc59cc6257cb032c45d0c30162d5012aecec",
-          "sizeBytes": 221838,
+          "sha256": "5caef836e1214e3531141ab43fcd767929ed5fe4ff356cb21a472b1e333a6eb0",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 24000,
           "speedPercent": 100
@@ -2193,8 +2193,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/110.gif",
-          "sha256": "7e00535da0fb14459653acc7a0395667ce2d6945e2d99d03352aed5cccae3192",
-          "sizeBytes": 221838,
+          "sha256": "100b60186c4b72dbd7ce08cec7141b90cf81efbb97a640454dd71c1d64bd5c52",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 21600,
           "speedPercent": 110
@@ -2202,8 +2202,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/120.gif",
-          "sha256": "29591077cbd370e0c340d78deb15067a188a31335ff45ec10318b2944b650e5a",
-          "sizeBytes": 221838,
+          "sha256": "a8450410aec6c324047f516f4d56226c51ca4bad936cd3ccc5dfeefeaede9327",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 19200,
           "speedPercent": 120
@@ -2211,8 +2211,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/130.gif",
-          "sha256": "29591077cbd370e0c340d78deb15067a188a31335ff45ec10318b2944b650e5a",
-          "sizeBytes": 221838,
+          "sha256": "a8450410aec6c324047f516f4d56226c51ca4bad936cd3ccc5dfeefeaede9327",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 19200,
           "speedPercent": 130
@@ -2220,8 +2220,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/140.gif",
-          "sha256": "ac6d817faa1de3cf44fa6023602ef9a09096270d58bf4ea9dd23f9a44f618325",
-          "sizeBytes": 221838,
+          "sha256": "87676ae1d57398936ab1edcb25d99825bb371f36bee7359a6b212b83879859fb",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 140
@@ -2229,8 +2229,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/150.gif",
-          "sha256": "ac6d817faa1de3cf44fa6023602ef9a09096270d58bf4ea9dd23f9a44f618325",
-          "sizeBytes": 221838,
+          "sha256": "87676ae1d57398936ab1edcb25d99825bb371f36bee7359a6b212b83879859fb",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 150
@@ -2238,8 +2238,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/160.gif",
-          "sha256": "441a277e2e58f60e298f7607746cda86c140b9c217c50bcb474cfaf482419294",
-          "sizeBytes": 221838,
+          "sha256": "6b1134e516d5a28468d1a37e51e2c0b84366d3b82a166215bc2a84f527855960",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 160
@@ -2247,8 +2247,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/170.gif",
-          "sha256": "441a277e2e58f60e298f7607746cda86c140b9c217c50bcb474cfaf482419294",
-          "sizeBytes": 221838,
+          "sha256": "6b1134e516d5a28468d1a37e51e2c0b84366d3b82a166215bc2a84f527855960",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 170
@@ -2256,8 +2256,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/180.gif",
-          "sha256": "441a277e2e58f60e298f7607746cda86c140b9c217c50bcb474cfaf482419294",
-          "sizeBytes": 221838,
+          "sha256": "6b1134e516d5a28468d1a37e51e2c0b84366d3b82a166215bc2a84f527855960",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 14400,
           "speedPercent": 180
@@ -2265,8 +2265,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/190.gif",
-          "sha256": "cd7434a8eb6d6c6562f684b46309d0898a2774ccf1834181e302e1633dc44200",
-          "sizeBytes": 221838,
+          "sha256": "e693419253f14202d8358e3b5c25b8c1317d82a5725621743f2ae73ceb98fc99",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 12000,
           "speedPercent": 190
@@ -2274,8 +2274,8 @@
         {
           "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/200.gif",
-          "sha256": "cd7434a8eb6d6c6562f684b46309d0898a2774ccf1834181e302e1633dc44200",
-          "sizeBytes": 221838,
+          "sha256": "e693419253f14202d8358e3b5c25b8c1317d82a5725621743f2ae73ceb98fc99",
+          "sizeBytes": 222039,
           "frameCount": 240,
           "durationMs": 12000,
           "speedPercent": 200

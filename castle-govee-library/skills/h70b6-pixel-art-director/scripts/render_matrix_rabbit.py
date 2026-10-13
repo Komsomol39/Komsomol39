@@ -34,73 +34,98 @@ def smoothstep(t):
     return t*t*(3-2*t)
 
 def rabbit_sprite(look="right",stride=0):
-    """Hand-designed 21x22 side-on rabbit, anatomically divided paws & haunch."""
+    """Natural 21x22 rabbit silhouette: curved haunch, tapering thorax, long ears.
+
+    Every mark is intentional native pixel art. This is a side-on white rabbit,
+    not a humanoid mascot or a filled rectangle with four stick legs.
+    """
     im=Image.new("RGBA",(21,22),(0,0,0,0))
     d=ImageDraw.Draw(im)
-    # Long clearly separated ears, one upright and one bent as animal scans.
-    if look=="listen":
-        d.polygon([(12,9),(11,3),(12,0),(14,1),(15,9)],fill=FUR)
-        d.polygon([(16,9),(17,2),(19,3),(19,5),(18,10)],fill=FUR)
-        d.line([(13,3),(13,7)],fill=EAR)
-        d.line([(18,4),(17,7)],fill=EAR)
-    else:
-        d.polygon([(12,9),(12,2),(13,0),(15,1),(15,10)],fill=FUR)
-        d.polygon([(16,9),(16,3),(18,1),(19,3),(18,10)],fill=FUR)
-        d.line([(13,2),(13,7)],fill=EAR)
-        d.line([(17,4),(17,8)],fill=EAR)
-    # Rounded rear, raised back, narrow neck. No block-shaped solid rectangle.
-    d.polygon([(4,13),(5,11),(7,10),(11,11),(13,12),
-               (15,14),(14,17),(10,18),(6,18),(4,16)],fill=FUR)
-    d.line([(5,13),(6,11),(9,11)],fill=HI)
-    d.line([(5,16),(7,17),(10,17)],fill=LIGHT)
-    # The shaded curve outlines the haunch within the pale fur, preserving
-    # the character when the individual LEDs flare through sheer curtains.
-    d.line([(9,12),(8,13),(9,15),(9,16)],fill=SHADE)
-    d.point((6,15),fill=LIGHT)
-    d.line([(11,17),(12,16),(13,15)],fill=SHADE)
-    # Small round cotton tail above the haunch, distinct from the hind leg.
-    # Five-ish lit LEDs, rather than a large 5x5 rump bulge.
-    d.ellipse((2,10,4,12),fill=FUR)
-    d.point((3,10),fill=HI)
-    d.point((2,11),fill=LIGHT)
-    # Neck, head, distinct muzzle projecting RIGHT.
-    d.polygon([(12,13),(13,10),(16,9),(18,11),(17,16),(15,17)],fill=FUR)
-    d.ellipse((12,8,18,13),fill=HI)
-    d.ellipse((16,11,19,14),fill=FUR)
-    d.point((20,13),fill=NOSE)
-    d.point((19,13),fill=HI)
-    # Carved cheek, eye and mouth; face turn is signaled by TWO eyes.
-    d.point((18,10),fill=EYE)
-    d.point((17,14),fill=SHADE)
+    transparent=(0,0,0,0)
+    # Rounded hindquarters and a sloping back: the silhouette has three
+    # differentiated masses (hindquarter, thorax, and delicate head).
+    d.polygon([(2,16),(3,13),(4,11),(6,10),(9,10),(11,11),
+               (13,13),(14,15),(13,17),(11,19),(8,20),
+               (5,20),(3,18)],fill=FUR)
+    d.ellipse((4,11,12,20),fill=FUR)
+    d.line([(3,15),(4,13),(6,11),(8,10),(10,11)],fill=HI,width=1)
+    # Not all white: clear round thigh and soft shaded underbelly.
+    d.arc((4,12,11,20),start=265,end=120,fill=LIGHT,width=1)
+    d.line([(7,18),(10,19),(12,18)],fill=LIGHT,width=1)
+    d.point((6,15),fill=(231,241,235))
+    d.point((8,13),fill=(231,241,235))
+    # Narrow chest: follows the slope of the neck; avoid squared body.
+    d.polygon([(11,14),(13,11),(14,10),(16,12),(16,16),
+               (15,19),(13,18),(12,16)],fill=FUR)
+    d.line([(13,12),(14,11),(15,13)],fill=HI)
+    d.line([(15,15),(14,17),(13,18)],fill=LIGHT)
+    # Side view of true rabbit head, narrower than its hips, almond-shaped.
     if look=="front":
+        d.ellipse((13,8,18,13),fill=HI)
+        d.ellipse((15,11,19,14),fill=FUR)
         d.point((15,10),fill=EYE)
+        d.point((18,10),fill=EYE)
+        d.point((17,13),fill=NOSE)
+        d.point((15,13),fill=LIGHT)
+    else:
+        d.polygon([(13,11),(14,9),(16,8),(18,9),(19,11),
+                   (20,12),(19,14),(16,14),(14,13)],fill=FUR)
+        d.line([(15,9),(17,9),(18,10)],fill=HI)
         d.point((17,10),fill=EYE)
-        d.point((18,13),fill=EAR)
-    elif look=="sniff":
-        d.point((19,12),fill=EAR)
-        d.point((19,14),fill=LIGHT)
-    # Separate hind leg (big curved thigh) and FRONT foreleg.
-    d.ellipse((5,15,9,19),fill=FUR)
-    d.line([(7,17),(6,19),(4,20),(9,20)],fill=FUR,width=2)
-    d.line([(7,17),(7,19)],fill=LIGHT)
-    # Clear negative opening between rear and front paws at x11-13 y19.
-    d.rectangle((11,19,13,21),fill=(0,0,0,0))
-    d.line([(15,16),(15,19),(17,20),(19,20)],fill=FUR,width=2)
-    d.point((16,17),fill=LIGHT)
-    # Legs animate only during walking/running, not while standing stately.
+        d.point((20,12),fill=NOSE)
+        d.point((18,13),fill=LIGHT)
+        d.point((19,13),fill=SHADE)
+        if look=="sniff":
+            d.point((20,11),fill=NOSE)
+            d.point((20,12),fill=FUR)
+    # Two LOOONG separated ears that taper to 1 LED (not square pillars).
+    # Their base sits just behind head, naturally slanted back.
+    if look=="listen":
+        d.polygon([(13,10),(11,5),(10,1),(11,0),(13,3),(15,9)],fill=FUR)
+        d.polygon([(16,9),(17,3),(18,0),(19,2),(18,9)],fill=HI)
+        d.line([(12,3),(13,7)],fill=EAR)
+        d.line([(18,3),(17,7)],fill=EAR)
+    elif look=="front":
+        d.polygon([(13,10),(12,3),(12,0),(14,1),(15,9)],fill=FUR)
+        d.polygon([(16,9),(17,2),(19,0),(19,4),(18,10)],fill=HI)
+        d.line([(13,2),(14,7)],fill=EAR)
+        d.line([(18,3),(17,8)],fill=EAR)
+    else:
+        d.polygon([(13,10),(12,5),(12,2),(13,0),(14,2),(15,9)],fill=HI)
+        d.polygon([(16,9),(16,4),(18,1),(19,3),(18,10)],fill=FUR)
+        d.line([(13,3),(14,8)],fill=EAR)
+        d.line([(18,3),(17,8)],fill=EAR)
+    # Powder-puff small tail on the BACK, not a second head.
+    d.ellipse((0,13,4,17),fill=FUR)
+    d.point((1,13),fill=HI)
+    d.point((1,17),fill=LIGHT)
+    # Massive folded hind leg, knee curving forward.
+    d.ellipse((4,15,10,20),fill=FUR)
+    d.arc((5,15,10,20),90,280,fill=LIGHT,width=1)
+    d.polygon([(5,18),(5,20),(4,21),(11,21),(12,20),(9,19)],fill=FUR)
+    d.line([(7,21),(11,21)],fill=LIGHT)
+    # A gap between front and rear feet enhances real anatomy at 30x32.
+    d.rectangle((12,20,13,21),fill=transparent)
+    # Short foreleg, separate from hind paw, with a small front foot.
+    d.line([(15,16),(16,18),(16,20),(18,20)],fill=FUR,width=2)
+    d.point((19,20),fill=LIGHT)
+    d.point((15,18),fill=LIGHT)
+    # Only entrance / running cycle articulates the legs; standing stays poised.
     if stride:
-        if stride%4==1:
-            d.rectangle((4,19,9,21),fill=(0,0,0,0))
-            d.line([(7,17),(5,19),(3,18)],fill=FUR,width=2)
-            d.line([(15,17),(16,19),(19,20)],fill=FUR,width=2)
-        elif stride%4==2:
-            d.rectangle((4,19,9,21),fill=(0,0,0,0))
-            d.line([(7,17),(8,20),(11,20)],fill=FUR,width=2)
-            d.rectangle((16,20,20,21),fill=(0,0,0,0))
-            d.line([(15,17),(18,19),(20,18)],fill=FUR,width=2)
-        elif stride%4==3:
-            d.line([(6,18),(3,20)],fill=FUR,width=2)
-            d.line([(15,18),(20,20)],fill=FUR,width=2)
+        v=stride%4
+        if v==1:
+            d.rectangle((4,19,11,21),fill=transparent)
+            d.line([(7,17),(5,19),(3,19)],fill=FUR,width=2)
+            d.line([(15,17),(17,18),(19,19)],fill=FUR,width=2)
+        elif v==2:
+            d.rectangle((4,19,11,21),fill=transparent)
+            d.line([(7,17),(9,19),(12,19)],fill=FUR,width=2)
+            d.rectangle((16,20,20,21),fill=transparent)
+            d.line([(15,17),(16,19),(19,18)],fill=FUR,width=2)
+        elif v==3:
+            d.rectangle((4,19,11,21),fill=transparent)
+            d.line([(7,18),(4,20),(2,20)],fill=FUR,width=2)
+            d.line([(15,18),(18,19),(20,20)],fill=FUR,width=2)
     return im
 
 def overlay(base,sprite,left,top,scale=1.0):
