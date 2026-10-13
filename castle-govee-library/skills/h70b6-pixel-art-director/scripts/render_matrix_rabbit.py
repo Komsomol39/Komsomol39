@@ -58,10 +58,11 @@ def rabbit_sprite(look="right",stride=0):
     d.line([(9,12),(8,13),(9,15),(9,16)],fill=SHADE)
     d.point((6,15),fill=LIGHT)
     d.line([(11,17),(12,16),(13,15)],fill=SHADE)
-    # White tail prominent on black background.
-    d.ellipse((1,12,5,16),fill=FUR)
-    d.point((2,12),fill=HI)
-    d.point((2,16),fill=LIGHT)
+    # Small round cotton tail above the haunch, distinct from the hind leg.
+    # Five-ish lit LEDs, rather than a large 5x5 rump bulge.
+    d.ellipse((2,10,4,12),fill=FUR)
+    d.point((3,10),fill=HI)
+    d.point((2,11),fill=LIGHT)
     # Neck, head, distinct muzzle projecting RIGHT.
     d.polygon([(12,13),(13,10),(16,9),(18,11),(17,16),(15,17)],fill=FUR)
     d.ellipse((12,8,18,13),fill=HI)
