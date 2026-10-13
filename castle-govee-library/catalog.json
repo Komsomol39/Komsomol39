@@ -2295,6 +2295,15 @@
       "variants": [
         {
           "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/010.gif",
+          "sha256": "7410a1b73079071f8a0e1cb8df258feace24a950fa5e21489acaa6daa0d5e42e",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 240000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/020.gif",
           "sha256": "a37b6ec09ed7c20cbd01c6bda953451f40720eac54e30920bab2ce656ef1f850",
           "sizeBytes": 221579,
@@ -2322,12 +2331,39 @@
         },
         {
           "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/050.gif",
+          "sha256": "0b787b9f32032f4dcdd00ff8ea27424b2fb11066f67b375cb5d653b3aaf4b0d8",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 48000,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/060.gif",
+          "sha256": "669172aa3fe198f159bd51921c88f174df03a9ac2a946866e8144c727f0c191e",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 40800,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/070.gif",
           "sha256": "c8665bf9ded1cee72e33870b203cf6af0e20b291004f23308906a8e453d2bc9a",
           "sizeBytes": 221579,
           "frameCount": 240,
           "durationMs": 33600,
           "speedPercent": 70
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/080.gif",
+          "sha256": "0d5de44b4b08891a1db3c0632171efaa3ab8e08dc653fc599ba71f386723bf7c",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 28800,
+          "speedPercent": 80
         },
         {
           "orientation": "normal",
@@ -2376,12 +2412,30 @@
         },
         {
           "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/140.gif",
+          "sha256": "4a3d68796ee164f350dcb9c9e3cd2a26d8150fe4090694dabb89404d023fce81",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 16800,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "normal",
           "file": "gifs/matrix-white-rabbit/normal/150.gif",
           "sha256": "4a3d68796ee164f350dcb9c9e3cd2a26d8150fe4090694dabb89404d023fce81",
           "sizeBytes": 221579,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 150
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/matrix-white-rabbit/normal/160.gif",
+          "sha256": "7cabfcce4a84ca375bc6264e4f079179d24c364dd17a9fa8962d0c717721ece0",
+          "sizeBytes": 221579,
+          "frameCount": 240,
+          "durationMs": 14400,
+          "speedPercent": 160
         },
         {
           "orientation": "normal",
@@ -2421,6 +2475,15 @@
         },
         {
           "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/010.gif",
+          "sha256": "893d9cbb240b7ebb3fff590cbfd668874858f3e65bbd726a7e0a51d761fe1365",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 240000,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/020.gif",
           "sha256": "7c154fd9f17922fd852b260668709a7e6ce6daa1bf498474ce2c40ecc106c677",
           "sizeBytes": 221633,
@@ -2448,12 +2511,39 @@
         },
         {
           "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/050.gif",
+          "sha256": "b988ac1b614b8e6e6fdaef67b9eab66d219ab6a57f5abd83eb52e60ed5a939fe",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 48000,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/060.gif",
+          "sha256": "b711f918d09ef29901c6a420af89dda66a3fd62e868e6593896929148d47f23f",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 40800,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/070.gif",
           "sha256": "e42b4fed86cecd067d9402550190a8ffb715451c6599a82ef29194b3008477c6",
           "sizeBytes": 221633,
           "frameCount": 240,
           "durationMs": 33600,
           "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/080.gif",
+          "sha256": "c4b5ae671022e77ae3fa842c845d79642d554c0562ef024fee6e6786b0f74aff",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 28800,
+          "speedPercent": 80
         },
         {
           "orientation": "street",
@@ -2502,12 +2592,30 @@
         },
         {
           "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/140.gif",
+          "sha256": "75748e731d8a23e0ab67e009d3be1cd11497fcbed88d2e55d812d68e529326d5",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 16800,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
           "file": "gifs/matrix-white-rabbit/street/150.gif",
           "sha256": "75748e731d8a23e0ab67e009d3be1cd11497fcbed88d2e55d812d68e529326d5",
           "sizeBytes": 221633,
           "frameCount": 240,
           "durationMs": 16800,
           "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/matrix-white-rabbit/street/160.gif",
+          "sha256": "8cff330143b7ed7016ddc470a9b014033613bfadf28b910fcec26d61f2b8cb7a",
+          "sizeBytes": 221633,
+          "frameCount": 240,
+          "durationMs": 14400,
+          "speedPercent": 160
         },
         {
           "orientation": "street",
