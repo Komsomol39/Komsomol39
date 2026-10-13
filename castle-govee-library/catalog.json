@@ -2655,6 +2655,379 @@
         }
       ],
       "loop": true
+    },
+    {
+      "id": "campfire-sausages",
+      "title": "Костёр и сосиски",
+      "description": "Вид сверху: четыре человека сидят у живого костра и жарят сосиски на шампурах, пламя и искры мерцают.",
+      "type": "animation",
+      "preview": {
+        "file": "animations/campfire-sausages/frame-00.png",
+        "sha256": "d0393eb3b8f0cc332193e98020de4f4517f622844777ac29a9a899ddeb8bb560"
+      },
+      "variants": [
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/010.gif",
+          "sha256": "82861913efaecb20ac7e8d86abd17d3efe8b387f42675c0eff546dfc7ed11d61",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 76800,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/020.gif",
+          "sha256": "ee461b52fa93f180f3305119c55e9e2b78c3d605cce473e7d21855984e39f539",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 38400,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/030.gif",
+          "sha256": "1918435298abf34dda8a2be0dc2fb3ea45a0f2952f6c1f48da3088a1095ee22f",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 25600,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/040.gif",
+          "sha256": "293016baf83f30af5cf922fdab772160bbe863aca87e88a1c25ddb1d9b9fafa3",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 19200,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/050.gif",
+          "sha256": "9c4c2f35fa77f51b8eca9a6f4d0c465be1142c828a8e9cbcab69dfd2b10f3864",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 15360,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/060.gif",
+          "sha256": "5dfb042657e01bb81c50f5e94ca251aa0e567a51de28e4a2eab7a0c447525604",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 12800,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/070.gif",
+          "sha256": "92a0428de958de70066c37ab8fc0c24201cea9639c9d5b23d6c7ddc59b204f82",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 10890,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/080.gif",
+          "sha256": "9215e3eca218d99dd62da171af54910a136a8252c85f99a205f57b69171b37fc",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 9600,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/090.gif",
+          "sha256": "282d6a7508dc3e09ebf674ba3409675c26db45c1f626ab1d0ab32135f42df84f",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 8570,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/100.gif",
+          "sha256": "85570a91703c57116e7c4a94552c41acadb1df227aa68da7639c3ffdc4c20e7b",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 7680,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/110.gif",
+          "sha256": "8eb90def16e876a0f2796663aa93233b6719c8056600d2e75abd798cd6a30502",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 7040,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/120.gif",
+          "sha256": "f85bb5a442ed3ac0be74cb78acb348985f8844e1dca09e6268e42169e7b510c6",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 6400,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/130.gif",
+          "sha256": "f86b4acdc82c564c3e9d7dde014d1c6c5272b1cad74078844cf3da81480152df",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 5800,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/140.gif",
+          "sha256": "351fecf197bfe4889667046a4a0e711aa48bd8cf76b7d41bd7ecc64e2017c7a4",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 5500,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/150.gif",
+          "sha256": "7d8f5e70fb24530ef940221563f015c7f57d68145f9f773a790d5a4a5252252b",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 5120,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/160.gif",
+          "sha256": "cf9914a803968a21d258c4ac4fe48b8984da5751e7aa000bd30080b0aadd0437",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 4830,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/170.gif",
+          "sha256": "30e633eb12328bdd749e9f877cec022d118ad7c2f3c838304bd47c7c2d09a2e3",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 4480,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/180.gif",
+          "sha256": "ce8d502fdf7f576a85d0814c2037cfb34448a18a36943b82cdd9d6e9b27c2b59",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 4230,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/190.gif",
+          "sha256": "f589f5ae8aa5c437c8f9b5492c5bb577d8e43b56d6aeb858019cef412b4927fc",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 4090,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "normal",
+          "file": "gifs/campfire-sausages/normal/200.gif",
+          "sha256": "fcf4b517edca0a6397e9b77f9ab7330a76e39e1f6d596919bcc752097a11bec7",
+          "sizeBytes": 28941,
+          "frameCount": 34,
+          "durationMs": 3840,
+          "speedPercent": 200
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/010.gif",
+          "sha256": "fa60b514114d4a07db1cb301ad00ba457f91e769fadef608ff58f91772735146",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 76800,
+          "speedPercent": 10
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/020.gif",
+          "sha256": "ae5d7a11dac6aa71734b0c8a3edf69ce14d24f09ea5fe87f16d4832bc75289fc",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 38400,
+          "speedPercent": 20
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/030.gif",
+          "sha256": "35e416bfea862510b93b5b008e56e1af6e64af565f424764c356ca3f4ebe6ffb",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 25600,
+          "speedPercent": 30
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/040.gif",
+          "sha256": "654603af1455f07a129f8605e1a3a55d0314bb558dbca64cc02e357568b19a3a",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 19200,
+          "speedPercent": 40
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/050.gif",
+          "sha256": "72b693d444e3be03c4056f3cba6decb75f4c44c1402b5d597d5c07024b769175",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 15360,
+          "speedPercent": 50
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/060.gif",
+          "sha256": "36fccd9130213af959b15ae6f1393dac456f7086de8e85eee6d4848488d42e85",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 12800,
+          "speedPercent": 60
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/070.gif",
+          "sha256": "390ef8bb7670f58eaf37bd9808977a6ce8622b49cecfe7b5e94a756cb25ebc9f",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 10890,
+          "speedPercent": 70
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/080.gif",
+          "sha256": "ff3097cc027b866b0eee63293d3847fc5b815d701d6f67fb8bd30242b9f5d400",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 9600,
+          "speedPercent": 80
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/090.gif",
+          "sha256": "91650ddaf42cf2223ee928ea7b2019e3a208c45d29fdc48c08bfe2e4e3b14725",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 8570,
+          "speedPercent": 90
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/100.gif",
+          "sha256": "e51e38827e56b6b4ea39dba40743dacd26ec0f42d59801a822de46caced42d2f",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 7680,
+          "speedPercent": 100
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/110.gif",
+          "sha256": "3b15306340101d5be44c70c21118d4b605c931d309d494e9290bd064ecab86d3",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 7040,
+          "speedPercent": 110
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/120.gif",
+          "sha256": "6e517c635bacd3588400facf96a337ec92482df5a15ff5f51d0767883c1dd91c",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 6400,
+          "speedPercent": 120
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/130.gif",
+          "sha256": "a16e8b4683b2f54a36a0d84640872108383a1b8ed3b71da9003af2cda399568e",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 5800,
+          "speedPercent": 130
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/140.gif",
+          "sha256": "5e67317827feeb72bf472bbbdf3cfe67448d896858bae38722840d74882f5912",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 5500,
+          "speedPercent": 140
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/150.gif",
+          "sha256": "a1242f57d9e59839a7ad8997cf1ae4bd4d72d99f6dfd2b2e680523e48359fff1",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 5120,
+          "speedPercent": 150
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/160.gif",
+          "sha256": "2324da9edebb958699d5fcb7c2af8541e03dd4175f14e6ca23b4c6a330d0c271",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 4830,
+          "speedPercent": 160
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/170.gif",
+          "sha256": "00954af41dae0d7d7a7e911f116d8a6007591b76af871538b87720eb5e42e02f",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 4480,
+          "speedPercent": 170
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/180.gif",
+          "sha256": "82b846f3de543d99f0426ba928a89b74b1289d5be90aa577d292924f6d84de73",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 4230,
+          "speedPercent": 180
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/190.gif",
+          "sha256": "93cfe1b2dec5f94382bb0dd1b6b205bb1bd153a9ff0e764e3e7925fdcc8c94a6",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 4090,
+          "speedPercent": 190
+        },
+        {
+          "orientation": "street",
+          "file": "gifs/campfire-sausages/street/200.gif",
+          "sha256": "c685ccd0c76ba906a93d923f41d16ed03d9d467d9dff0e1403c82f65c5e33930",
+          "sizeBytes": 28947,
+          "frameCount": 34,
+          "durationMs": 3840,
+          "speedPercent": 200
+        }
+      ],
+      "loop": true
     }
   ]
 }

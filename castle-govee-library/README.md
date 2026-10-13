@@ -20,13 +20,17 @@ Castle Lights does not generate or modify GitHub-gallery GIF files on the phone.
 
 | Effect | Orientations | Speed presets | GIFs |
 | --- | --- | --- | ---: |
-| Russian waving flag | normal / street | 10% through 200% | 40 |
-| Autumn leaves | normal / street | 10% through 200% | 40 |
-| Sunny island and flying seagulls | normal / street | 10% through 200% | 40 |
-| Svetlogorsk coat of arms | normal / street | none (static) | 2 |
-| Russian tricolor | normal / street | none (static) | 2 |
-| Baltic heart | normal / street | none (static) | 2 |
-| **Total** | | | **126** |
+| Герб Светлогорска | normal / street | none (static) | 2 |
+| Флаг России | normal / street | none (static) | 2 |
+| Развевающийся флаг | normal / street | 10% through 200% | 40 |
+| 🍂 Осенний листопад | normal / street | 10% through 200% | 40 |
+| Остров и чайка — крупная версия | normal / street | 10% through 200% | 40 |
+| Сердце Балтики — Ночная башня | normal / street | 19 presets | 38 |
+| Матрица — зелёный код | normal / street | 10% through 200% | 40 |
+| Матрица 2.0 — Цифровой дождь | normal / street | 10% through 200% | 40 |
+| Матрица 2.1 — Белый кролик | normal / street | 10% through 200% | 40 |
+| Костёр и сосиски | normal / street | 10% through 200% | 40 |
+| **Total** | | | **322** |
 
 ## Example animation item
 
