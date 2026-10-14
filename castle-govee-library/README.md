@@ -27,7 +27,7 @@ Castle Lights does not generate or modify GitHub-gallery GIF files on the phone.
 | Остров и чайка — крупная версия | normal / street | 10% through 200% | 40 |
 | Сердце Балтики — Ночная башня | normal / street | 19 presets | 38 |
 | Матрица — Белый кролик | normal / street | 10% through 200% | 40 |
-| Костёр и зелёная палатка | normal / street | 10% through 200% | 40 |
+| Костёр, палатка и волк | normal / street | 10% through 200% | 40 |
 | **Total** | | | **242** |
 
 ## Example animation item
