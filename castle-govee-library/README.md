@@ -26,11 +26,9 @@ Castle Lights does not generate or modify GitHub-gallery GIF files on the phone.
 | 🍂 Осенний листопад | normal / street | 10% through 200% | 40 |
 | Остров и чайка — крупная версия | normal / street | 10% through 200% | 40 |
 | Сердце Балтики — Ночная башня | normal / street | 19 presets | 38 |
-| Матрица — зелёный код | normal / street | 10% through 200% | 40 |
-| Матрица 2.0 — Цифровой дождь | normal / street | 10% through 200% | 40 |
-| Матрица 2.1 — Белый кролик | normal / street | 10% through 200% | 40 |
-| Костёр и сосиски | normal / street | 10% through 200% | 40 |
-| **Total** | | | **322** |
+| Матрица — Белый кролик | normal / street | 10% through 200% | 40 |
+| Костёр и зелёная палатка | normal / street | 10% through 200% | 40 |
+| **Total** | | | **242** |
 
 ## Example animation item
 
