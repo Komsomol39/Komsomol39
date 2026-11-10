@@ -226,6 +226,7 @@ def render():
         disposal=2,optimize=True)
     # At full scale LED 30x32, and enlarged preview.
     finals=[all_frames[i*STEP+12] for i in range(len(SCENES))]
+    finals[0].save(out/"gallery-preview.png")
     sheet=Image.new("RGB",(30*8,32))
     for i,im in enumerate(finals):
         sheet.paste(im,(30*i,0))
