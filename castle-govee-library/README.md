@@ -75,3 +75,7 @@ The repository includes a reusable [v2 authoring script](tools/add_effect_v2.py)
     python castle-govee-library/tools/add_effect_v2.py --input animation.gif --id my-effect --title "My effect" --speeds all --orientations normal,street
 
 Review its output and publish all binaries plus catalog.json in one commit. The Android app does not generate the variants.
+
+## Geometry Masters — eight moving paintings (2026-11-10)
+
+One 30x32 looping animation (`geometry-masters`) with 8 pixel-scale interpretations of geometric works by Piet Mondrian, Kazimir Malevich, Wassily Kandinsky, Paul Klee, Robert Delaunay, El Lissitzky, Lyubov Popova and Frantisek Kupka. Each artwork is constructed from dozens of independently translating, rotating and scaling geometric primitives, with overlap into the next painting. 35.84s at 100%, 72 GIF-optimized frames, both display orientations and 10–200% speed variants. The editable procedural source is in `tools/geometry_masters.py`. These are stylized LED-size interpretations rather than photographic reproductions.
